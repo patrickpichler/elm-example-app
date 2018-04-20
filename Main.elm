@@ -3,10 +3,11 @@ module Hello exposing (..)
 import Html exposing (..)
 import Html.Events exposing (onInput, onClick)
 import List
+import String
 
 
 type alias Model =
-    { todos : List String
+    { todos : List Todo
     , inputFieldState : InputFieldModel
     }
 
@@ -14,6 +15,11 @@ type alias Model =
 type alias InputFieldModel =
     { text : String
     , buttonActive : Bool
+    }
+
+
+type alias Todo =
+    { text : String
     }
 
 
@@ -35,12 +41,12 @@ initInputFieldModel =
 
 type Msg
     = FieldUpdate InputFieldUpdate
+    | AddTodo
     | NoOp
 
 
 type InputFieldUpdate
     = ChangeText String
-    | AddTodo
 
 
 view : Model -> Html Msg
@@ -49,31 +55,52 @@ view model =
         ((renderList model.todos) ++ [ renderInput ])
 
 
-renderList : List String -> List (Html msg)
-renderList texts =
-    List.map (\h -> text h) texts
+renderList : List Todo -> List (Html msg)
+renderList todos =
+    List.map (\h -> text h.text) todos
 
 
 renderInput : Html Msg
 renderInput =
     div []
-        [ input [ onInput (FieldUpdate ChangeText) ] []
-        , button [ onClick AddTodo ] [ text "Add" ]
+        [ input [ onInput (FieldUpdate << ChangeText) ] []
+        , button [ onClick (AddTodo) ] [ text "Add" ]
         ]
+
+
+constructChangeText : String -> Msg
+constructChangeText text =
+    FieldUpdate (ChangeText text)
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         FieldUpdate inputFieldUpdate ->
-            ( model, Cmd.none )
+            ( { model | inputFieldState = (handleFieldUpdate inputFieldUpdate model.inputFieldState) }, Cmd.none )
+
+        AddTodo ->
+            ( { model | inputFieldState = clearInputText model.inputFieldState, todos = model.todos ++ [ (createTodo model.inputFieldState) ] }, Cmd.none )
 
         NoOp ->
             ( model, Cmd.none )
 
 
-updateInputState event model =
-    model
+createTodo : InputFieldModel -> Todo
+createTodo model =
+    { text = model.text }
+
+
+clearInputText : InputFieldModel -> InputFieldModel
+clearInputText model =
+    { model | text = "" }
+
+
+handleFieldUpdate : InputFieldUpdate -> InputFieldModel -> InputFieldModel
+handleFieldUpdate msg model =
+    case msg of
+        ChangeText newText ->
+            { model | text = newText, buttonActive = String.isEmpty newText }
 
 
 subscriptions : Model -> Sub Msg
