@@ -1,0 +1,1467 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alias	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Alias =$/;"	a
+Array	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^type Array a = Array$/;"	t
+Attribute	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^type alias Attribute msg = VirtualDom.Property msg$/;"	a
+Block	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^type Block = Normal | Pause | Message$/;"	t
+Buttons	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^type Buttons$/;"	t
+Change	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^type Change$/;"	t
+Cmd	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm	/^type Cmd msg = Cmd$/;"	t
+Color	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^type Color$/;"	t
+Config	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^type alias Config msg =$/;"	a
+Cons	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function Cons(hd, tl)$/;"	f	function:_elm_lang$core$Native_List
+Cons	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function Cons(hd, tl)$/;"	f
+Date	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^type Date = Date$/;"	t
+Day	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^type Day = Mon | Tue | Wed | Thu | Fri | Sat | Sun$/;"	t
+Decoder	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^type Decoder a = Decoder$/;"	t
+Dict	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^type Dict k v$/;"	t
+Different	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Equality.elm	/^type Different$/;"	t
+Elm.Native.TestHelpers.make	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^Elm.Native.TestHelpers.make = function(localRuntime)$/;"	f
+Error	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Error =$/;"	a
+Expando	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^type Expando$/;"	t
+Flag	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^type Flag = Insert | Remove | Same$/;"	t
+Generator	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^type Generator a =$/;"	t
+GetResult	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^type GetResult model msg$/;"	t
+Gradient	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^type Gradient$/;"	t
+History	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^type alias History model msg =$/;"	a
+HowMany	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^type HowMany = All | AtMost Int$/;"	t
+Html	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^type alias Html msg = VirtualDom.Node msg$/;"	a
+Id	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^type alias Id =$/;"	a
+InputFieldModel	src/Main.elm	/^type alias InputFieldModel =$/;"	a
+InputFieldUpdate	src/Main.elm	/^type InputFieldUpdate$/;"	t
+KeyCode	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^type alias KeyCode = Int$/;"	a
+LeafColor	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^type LeafColor$/;"	t
+Match	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^type alias Match =$/;"	a
+Maybe	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^type Maybe a$/;"	t
+Metadata	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Metadata =$/;"	a
+Model	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^type alias Model model msg =$/;"	a
+Model	src/Main.elm	/^type alias Model =$/;"	a
+Month	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^type Month$/;"	t
+Msg	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^type Msg msg$/;"	t
+Msg	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^type Msg$/;"	t
+Msg	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^type Msg = Cancel | Proceed$/;"	t
+Msg	src/Main.elm	/^type Msg$/;"	t
+MyCmd	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^type MyCmd msg = Generate (Generator msg)$/;"	t
+MyCmd	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^type MyCmd msg =$/;"	t
+MySub	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^type MySub msg =$/;"	t
+NColor	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^type NColor$/;"	t
+Never	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^type Never = JustOneMore Never$/;"	t
+Node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^type Node msg = Node$/;"	t
+Node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^type Node msg = Node$/;"	t
+OpaqueDom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^type OpaqueDom = OpaqueDom$/;"	t
+Options	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^type alias Options =$/;"	a
+Options	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^type alias Options =$/;"	a
+Options	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^type alias Options =$/;"	a
+Order	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^type Order = LT | EQ | GT$/;"	t
+POSTFIX	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var POSTFIX = '_elmW6BL';$/;"	v
+Problem	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type Problem$/;"	t
+ProblemType	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias ProblemType =$/;"	a
+ProcessId	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^type ProcessId = ProcessId$/;"	t
+Processes	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^type alias Processes =$/;"	a
+Program	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^type Program flags model msg = Program$/;"	t
+Property	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^type Property msg = Property$/;"	t
+Property	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^type Property msg = Property$/;"	t
+RecentHistory	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^type alias RecentHistory model msg =$/;"	a
+Redirect	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^type Redirect = None | Key | Value$/;"	t
+Regex	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^type Regex = Regex$/;"	t
+Report	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^type Report$/;"	t
+Result	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^type Result error value$/;"	t
+Router	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^type Router appMsg selfMsg =$/;"	t
+Seed	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^type Seed =$/;"	t
+SeqType	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^type SeqType = ListSeq | SetSeq | ArraySeq$/;"	t
+Set	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^type Set t =$/;"	t
+Snapshot	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^type alias Snapshot model msg =$/;"	a
+State	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^type State = State Int Int$/;"	t
+State	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^type alias State msg =$/;"	a
+State	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^type State model$/;"	t
+State	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^type State$/;"	t
+Status	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^type Status = Impossible | Risky | Fine$/;"	t
+Sub	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm	/^type Sub msg = Sub$/;"	t
+TagChanges	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^type alias TagChanges =$/;"	a
+Taggers	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^type alias Taggers msg =$/;"	a
+Task	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^type Task err ok = Task$/;"	t
+Task	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^type alias Task err ok =$/;"	a
+Time	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^type alias Time = Float$/;"	a
+Todo	src/Main.elm	/^type alias Todo =$/;"	a
+Tuple2	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function Tuple2(x, y)$/;"	f	function:_elm_lang$core$Native_Utils
+Types	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Types =$/;"	a
+Union	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Union =$/;"	a
+UserUpdate	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^type alias UserUpdate model msg =$/;"	a
+Value	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^type alias Value = JsEncode.Value$/;"	a
+Value	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^type Value = Value$/;"	t
+Versions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^type alias Versions =$/;"	a
+Wrapper	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^type Wrapper a$/;"	t
+_elm_lang$core$Native_Array	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^var _elm_lang$core$Native_Array = function() {$/;"	f
+_elm_lang$core$Native_Basics	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^var _elm_lang$core$Native_Basics = function() {$/;"	f
+_elm_lang$core$Native_Bitwise	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Bitwise.js	/^var _elm_lang$core$Native_Bitwise = function() {$/;"	f
+_elm_lang$core$Native_Char	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Char.js	/^var _elm_lang$core$Native_Char = function() {$/;"	f
+_elm_lang$core$Native_Date	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Date.js	/^var _elm_lang$core$Native_Date = function() {$/;"	f
+_elm_lang$core$Native_Debug	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Debug.js	/^var _elm_lang$core$Native_Debug = function() {$/;"	f
+_elm_lang$core$Native_Json	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^var _elm_lang$core$Native_Json = function() {$/;"	f
+_elm_lang$core$Native_List	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^var _elm_lang$core$Native_List = function() {$/;"	f
+_elm_lang$core$Native_Platform	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^var _elm_lang$core$Native_Platform = function() {$/;"	f
+_elm_lang$core$Native_Regex	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^var _elm_lang$core$Native_Regex = function() {$/;"	f
+_elm_lang$core$Native_Scheduler	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^var _elm_lang$core$Native_Scheduler = function() {$/;"	f
+_elm_lang$core$Native_String	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^var _elm_lang$core$Native_String = function() {$/;"	f
+_elm_lang$core$Native_Time	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Time.js	/^var _elm_lang$core$Native_Time = function() {$/;"	f
+_elm_lang$core$Native_Utils	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^var _elm_lang$core$Native_Utils = function() {$/;"	f
+_elm_lang$virtual_dom$Native_Debug	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^var _elm_lang$virtual_dom$Native_Debug = function() {$/;"	f
+_elm_lang$virtual_dom$Native_VirtualDom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var _elm_lang$virtual_dom$Native_VirtualDom = function() {$/;"	f
+_elm_lang$virtual_dom$VirtualDom_Debug$wrap	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var _elm_lang$virtual_dom$VirtualDom_Debug$wrap;$/;"	v
+_elm_lang$virtual_dom$VirtualDom_Debug$wrapWithFlags	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var _elm_lang$virtual_dom$VirtualDom_Debug$wrapWithFlags;$/;"	v
+abbr	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^abbr : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+abs	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^abs : number -> number$/;"	f
+abs	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function abs(n)$/;"	f	function:_elm_lang$core$Native_Basics
+accept	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^accept : String -> Attribute msg$/;"	f
+acceptCharset	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^acceptCharset : String -> Attribute msg$/;"	f
+accesskey	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^accesskey : Char -> Attribute msg$/;"	f
+acos	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^acos : Float -> Float$/;"	f
+action	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^action : String -> Attribute msg$/;"	f
+add	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^add : msg -> model -> History model msg -> History model msg$/;"	f
+addCommas	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^addCommas : List String -> String$/;"	f
+addDomNodes	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function addDomNodes(domNode, vNode, patches, eventNode)$/;"	f
+addDomNodesHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function addDomNodesHelp(domNode, vNode, patches, i, low, high, eventNode)$/;"	f
+addMySub	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^addMySub : MySub msg -> Taggers msg -> Taggers msg$/;"	f
+addSlashes	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function addSlashes(str, isChar)$/;"	f
+addSlashes	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function addSlashes(str, isChar)$/;"	f
+addTag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^addTag : String -> a -> Report.TagChanges -> Report.TagChanges$/;"	f
+address	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^address : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+align	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^align : String -> Attribute msg$/;"	f
+all	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^all : (a -> Bool) -> List a -> Bool$/;"	f
+all	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function all(pred, str)$/;"	f	function:_elm_lang$core$Native_String
+all	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^all : (Char -> Bool) -> String -> Bool$/;"	f
+allEvents	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var allEvents = mostEvents.concat('wheel', 'scroll');$/;"	v
+alt	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^alt : String -> Attribute msg$/;"	f
+always	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^always : a -> b -> a$/;"	f
+and	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^and : Int -> Int -> Int$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^andThen : (a -> Decoder b) -> Decoder a -> Decoder b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^    andThen : (a -> Maybe b) -> Maybe a -> Maybe b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^andThen : (a -> Maybe b) -> Maybe a -> Maybe b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function andThen(callback, decoder)$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function andThen(callback, task)$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^andThen : (a -> Generator b) -> Generator a -> Generator b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    andThen : (a -> Result e b) -> Result e a -> Result e b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^andThen : (a -> Result x b) -> Result x a -> Result x b$/;"	f
+andThen	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^andThen : (a -> Task x b) -> Task x a -> Task x b$/;"	f
+animals	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Dict.elm	/^animals : Dict.Dict String String$/;"	c
+any	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^any : (a -> Bool) -> List a -> Bool$/;"	f
+any	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function any(pred, str)$/;"	f	function:_elm_lang$core$Native_String
+any	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^any : (Char -> Bool) -> String -> Bool$/;"	f
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^append : Array a -> Array a -> Array a$/;"	f
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^append : List a -> List a -> List a$/;"	f
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function append(a,b)$/;"	f
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function append(a, b)$/;"	f	function:_elm_lang$core$Native_String
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function append(xs, ys)$/;"	f
+append	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^append : String -> String -> String$/;"	f
+append_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function append_(a, b)$/;"	f
+applyAttrs	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyAttrs(domNode, attrs)$/;"	f
+applyAttrsNS	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyAttrsNS(domNode, nsAttrs)$/;"	f
+applyEvents	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyEvents(domNode, eventNode, events)$/;"	f
+applyFacts	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyFacts(domNode, eventNode, facts)$/;"	f
+applyPatch	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatch(domNode, patch)$/;"	f
+applyPatchRedraw	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatchRedraw(domNode, vNode, eventNode)$/;"	f
+applyPatchReorder	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatchReorder(domNode, patch)$/;"	f
+applyPatchReorderEndInsertsHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatchReorderEndInsertsHelp(endInserts, patch)$/;"	f
+applyPatches	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatches(rootDomNode, oldVirtualNode, patches, eventNode)$/;"	f
+applyPatchesHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyPatchesHelp(rootDomNode, patches)$/;"	f
+applyStyles	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function applyStyles(domNode, styles)$/;"	f
+applyTaggers	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function applyTaggers(x)$/;"	f	function:toEffect
+array	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^array : Decoder a -> Decoder (Array a)$/;"	f
+array	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^array : Array Value -> Value$/;"	f
+article	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^article : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+aside	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^aside : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+asin	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^asin : Float -> Float$/;"	f
+assessImport	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^assessImport : Metadata -> String -> Result State Encode.Value$/;"	f
+async	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^async : Bool -> Attribute msg$/;"	f
+at	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^at : List String -> Decoder a -> Decoder a$/;"	f
+atan	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^atan : Float -> Float$/;"	f
+atan2	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^atan2 : Float -> Float -> Float$/;"	f
+attempt	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^attempt : (Result x a -> msg) -> Task x a -> Cmd msg$/;"	f
+attribute	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^attribute : String -> String -> Attribute msg$/;"	f
+attribute	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function attribute(key, value)$/;"	f
+attribute	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^attribute : String -> String -> Property msg$/;"	f
+attribute	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^attribute : String -> String -> Property msg$/;"	f
+attributeNS	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function attributeNS(namespace, key, value)$/;"	f
+attributeNS	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^attributeNS : String -> String -> String -> Property msg$/;"	f
+audio	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^audio : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+autocomplete	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^autocomplete : Bool -> Attribute msg$/;"	f
+autofocus	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^autofocus : Bool -> Attribute msg$/;"	f
+autoplay	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^autoplay : Bool -> Attribute msg$/;"	f
+bad	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function bad(msg)$/;"	f
+badField	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function badField(field, nestedProblems)$/;"	f
+badFloat	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm	/^badFloat : String -> Test$/;"	f
+badIndex	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function badIndex(index, nestedProblems)$/;"	f
+badInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    badInt : Decoder Int$/;"	c
+badInt	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm	/^badInt : String -> Test$/;"	f
+badMetadata	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^badMetadata : Metadata.Error -> State$/;"	f
+badOneOf	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function badOneOf(problems)$/;"	f
+badPrimitive	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function badPrimitive(type, value)$/;"	f
+badToString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function badToString(problem)$/;"	f
+balance	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^balance : NColor -> k -> v -> Dict k v -> Dict k v -> Dict k v$/;"	f
+balanceHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^balanceHelp : Dict k v -> Dict k v$/;"	f
+balancedTree	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^balancedTree : NColor -> k -> v -> k -> v -> k -> v -> Dict k v -> Dict k v -> Dict k v -> Dict k v -> Dict k v$/;"	f
+batch	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function batch(list)$/;"	f
+batch	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm	/^batch : List (Cmd msg) -> Cmd msg$/;"	f
+batch	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm	/^batch : List (Sub msg) -> Sub msg$/;"	f
+bdi	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^bdi : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+bdo	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^bdo : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+black	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^black : Color$/;"	c
+blacken	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^blacken : Dict k v -> Dict k v$/;"	f
+blackish	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^blackish : Dict k v -> Bool$/;"	f
+blockTagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	var blockTagger = function() {};$/;"	f	function:wrapViewIn
+blockquote	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^blockquote : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+blue	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^blue : Color$/;"	c
+blue	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^blue : VDom.Property msg$/;"	c
+body	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^body : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+bool	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^bool : Decoder Bool$/;"	c
+bool	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^bool : Bool -> Value$/;"	f
+bool	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    bool : Generator Bool$/;"	c
+bool	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^bool : Generator Bool$/;"	c
+boolProperty	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^boolProperty : String -> Bool -> Attribute msg$/;"	f
+botLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function botLeft(a)$/;"	f
+botRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function botRight(a)$/;"	f
+bottom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  bottom: 0;$/;"	c
+br	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^br : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+brown	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^brown : Color$/;"	c
+bubble	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^bubble : NColor -> k -> v -> Dict k v -> Dict k v -> Dict k v$/;"	f
+button	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^button : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+button	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^button : msg -> String -> Node msg$/;"	f
+calcToRemove	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function calcToRemove(a, b)$/;"	f
+callback	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^				callback: process.root.callback,$/;"	p	class:process.stack
+canvas	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^canvas : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+caption	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^caption : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+caseInsensitive	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function caseInsensitive(re)$/;"	f	function:_elm_lang$core$Native_Regex
+caseInsensitive	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^caseInsensitive : Regex -> Regex$/;"	f
+caseQualified	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^caseQualified : number$/;"	c
+caseScope	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^caseScope : String$/;"	c
+caseUnderscore	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^caseUnderscore : Maybe number -> number$/;"	f
+ceiling	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^ceiling : Float -> Int$/;"	f
+challenge	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^challenge : String -> Attribute msg$/;"	f
+charcoal	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^charcoal : Color$/;"	c
+charset	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^charset : String -> Attribute msg$/;"	f
+check	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^check : Metadata -> Metadata -> Report$/;"	f
+checkAlias	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^checkAlias : String -> Alias -> Alias -> List Report.Change -> List Report.Change$/;"	f
+checkNoFlags	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function checkNoFlags(flagDecoder, moduleName)$/;"	f
+checkPortName	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function checkPortName(name)$/;"	f
+checkTag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^checkTag : String -> a -> a -> Report.TagChanges -> Report.TagChanges$/;"	f
+checkTypes	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^checkTypes : Types -> Types -> Report$/;"	f
+checkUnion	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^checkUnion : String -> Union -> Union -> List Report.Change -> List Report.Change$/;"	f
+checkYesFlags	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function checkYesFlags(flagDecoder, moduleName)$/;"	f
+checked	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^checked : Bool -> Attribute msg$/;"	f
+chr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function chr(c)$/;"	f
+cite	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^cite : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+cite	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^cite : String -> Attribute msg$/;"	f
+clamp	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^clamp : number -> number -> number -> number$/;"	f
+clamp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function clamp(lo, hi, n)$/;"	f	function:_elm_lang$core$Native_Basics
+class	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^    class : String -> Attribute msg$/;"	f
+class	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^class : String -> Attribute msg$/;"	f
+class	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^class : String -> Property msg$/;"	f
+classList	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^classList : List (String, Bool) -> Attribute msg$/;"	f
+clearInputText	src/Main.elm	/^clearInputText : InputFieldModel -> InputFieldModel$/;"	f
+close	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	function close()$/;"	f	function:openDebugWindow
+close	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^close : Msg -> State -> Maybe Encode.Value$/;"	f
+cmdMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		cmdMap: outgoingPortMap,$/;"	p	class:effectManagers
+cmdMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^cmdMap : (a -> b) -> MyCmd a -> MyCmd b$/;"	f
+cmdMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^cmdMap : (a -> b) -> MyCmd a -> MyCmd b$/;"	f
+cmp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function cmp(x, y)$/;"	f	function:_elm_lang$core$Native_Utils
+code	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^code : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+coinFlip	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    coinFlip : Generator Flip$/;"	c
+col	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^col : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+colgroup	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^colgroup : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+collectBadAliases	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^collectBadAliases : String -> Alias -> List ProblemType -> List ProblemType$/;"	f
+collectBadUnions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^collectBadUnions : String -> Union -> List ProblemType -> List ProblemType$/;"	f
+color	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  color: #666;$/;"	c
+color	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  color: white;$/;"	c
+color	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  color: white;$/;"	c
+cols	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^cols : Int -> Attribute msg$/;"	f
+colspan	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^colspan : Int -> Attribute msg$/;"	f
+comment	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    comment : Decoder Comment$/;"	c
+compare	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^compare : comparable -> comparable -> Order$/;"	f
+compare	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function compare(x, y)$/;"	f	function:_elm_lang$core$Native_Basics
+complement	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^complement : Int -> Int$/;"	f
+complement	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^complement : Color -> Color$/;"	f
+concat	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^concat : List (List a) -> List a$/;"	f
+concat	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function concat(strs)$/;"	f	function:_elm_lang$core$Native_String
+concat	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^concat : List String -> String$/;"	f
+concatMap	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^concatMap : (a -> List b) -> List a -> List b$/;"	f
+cons	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function cons(chr, str)$/;"	f	function:_elm_lang$core$Native_String
+cons	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^cons : Char -> String -> String$/;"	f
+consMsg	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^consMsg : Int -> msg -> ( Int, List (Node Int) ) -> ( Int, List (Node Int) )$/;"	f
+consSnapshot	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^consSnapshot : Int -> Snapshot model msg -> ( Int, List (Node Int) ) -> ( Int, List (Node Int) )$/;"	f
+constructChangeText	src/Main.elm	/^constructChangeText : String -> Msg$/;"	f
+contains	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function contains(re, string)$/;"	f	function:_elm_lang$core$Native_Regex
+contains	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function contains(sub, str)$/;"	f	function:_elm_lang$core$Native_String
+contains	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^contains : Regex -> String -> Bool$/;"	f
+contains	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^contains : String -> String -> Bool$/;"	f
+content	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^content : String -> Attribute msg$/;"	f
+contenteditable	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^contenteditable : Bool -> Attribute msg$/;"	f
+contextmenu	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^contextmenu : String -> Attribute msg$/;"	f
+controls	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^controls : Bool -> Attribute msg$/;"	f
+converter	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		converter: converter,$/;"	p	class:effectManagers
+coords	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^coords : String -> Attribute msg$/;"	f
+corruptImport	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^corruptImport : State$/;"	c
+cos	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^cos : Float -> Float$/;"	f
+count	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^var count = 0;$/;"	v
+crash	elm-stuff/packages/elm-lang/core/5.1.1/src/Debug.elm	/^crash : String -> a$/;"	f
+crash	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Debug.js	/^function crash(message)$/;"	f	function:_elm_lang$core$Native_Debug
+crash	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function crash(moduleName, region)$/;"	f
+crash	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function crash(errorMessage, domNode)$/;"	f
+crashCase	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function crashCase(moduleName, region, value)$/;"	f
+create	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function create(item, h)$/;"	f
+createNode	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function createNode(h, length)$/;"	f
+createTodo	src/Main.elm	/^createTodo : InputFieldModel -> Todo$/;"	f
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				ctor: '_Array',$/;"	p	class:var.leaf
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				ctor: '_Array',$/;"	p	class:var.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			ctor: '_Array',$/;"	p	class:nodes
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			ctor: '_Array',$/;"	p	class:var.leaf
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			ctor: '_Array',$/;"	p	class:var.node
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:createNode.a
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:indexedMap_.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:map.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:nodeCopy.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:sliceLeft.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		ctor: '_Array',$/;"	p	class:sliceRight.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		var newA = { ctor:'_Array', height:0 };$/;"	p	class:var.newA
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^	ctor: '_Array',$/;"	p	class:_elm_lang$core$Native_Array.empty
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^var Nil = { ctor: '[]' };$/;"	p	class:_elm_lang$core$Native_List.Nil
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^				ctor: '_Task_andThen',$/;"	p	class:process.stack
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^				ctor: '_Task_onError',$/;"	p	class:process.stack
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^		ctor: '_Process',$/;"	p	class:rawSpawn.process
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^	ctor: '_Tuple0'$/;"	p	class:_elm_lang$core$Native_Utils.Tuple0
+ctor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^var Nil = { ctor: '[]' };$/;"	p	class:Nil
+ctorStarter	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^		var ctorStarter = value.ctor.substring(0, 5);$/;"	v
+curry	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^curry : ((a,b) -> c) -> a -> b -> c$/;"	f
+cursor	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  cursor: default;$/;"	c
+cursor	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  cursor: pointer;$/;"	c
+cursor	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  cursor: pointer;$/;"	c
+custom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function custom(factList, model, impl)$/;"	f
+customTests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Json.elm	/^customTests : Test$/;"	c
+darkBlue	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkBlue : Color$/;"	c
+darkBrown	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkBrown : Color$/;"	c
+darkCharcoal	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkCharcoal : Color$/;"	c
+darkGray	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkGray : Color$/;"	c
+darkGreen	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkGreen : Color$/;"	c
+darkGrey	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkGrey : Color$/;"	c
+darkOrange	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkOrange : Color$/;"	c
+darkPurple	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkPurple : Color$/;"	c
+darkRed	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkRed : Color$/;"	c
+darkYellow	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^darkYellow : Color$/;"	c
+data	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			data: patch$/;"	p	class:changes
+data	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			data: undefined$/;"	p	class:entry
+datalist	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^datalist : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+datetime	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^datetime : String -> Attribute msg$/;"	f
+day	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^day : Date -> Int$/;"	f
+dayOfWeek	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^dayOfWeek : Date -> Day$/;"	f
+dd	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^dd : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+debugRenderer	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function debugRenderer(moduleName, parentNode, popoutRef, view, viewIn, viewOut)$/;"	f
+debugSetup	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function debugSetup(impl, object, moduleName, flagChecker)$/;"	f
+decode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decode : Encode.Value -> Result Error Metadata$/;"	f
+decodeAlias	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decodeAlias : Decode.Decoder Alias$/;"	c
+decodeContainer	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodeContainer(tag, decoder)$/;"	f
+decodeField	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodeField(field, decoder)$/;"	f
+decodeIndex	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodeIndex(index, decoder)$/;"	f
+decodeKeyValuePairs	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodeKeyValuePairs(decoder)$/;"	f
+decodeNull	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodeNull(value)$/;"	f
+decodePrimitive	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function decodePrimitive(tag)$/;"	f
+decodeString	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^decodeString : Decoder a -> String -> Result String a$/;"	f
+decodeTypes	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decodeTypes : Decode.Decoder Types$/;"	c
+decodeUnion	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decodeUnion : Decode.Decoder Union$/;"	c
+decodeValue	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^decodeValue : Decoder a -> Value -> Result String a$/;"	f
+decodeVersions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decodeVersions : Decode.Decoder Versions$/;"	c
+decoder	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^decoder : model -> (msg -> model -> model) -> Decode.Decoder (model, History model msg)$/;"	f
+decoder	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^decoder : Decode.Decoder Metadata$/;"	c
+decoders	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^			var decoders = decoder.decoders;$/;"	v
+default	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^default : Bool -> Attribute msg$/;"	f
+defaultOptions	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^defaultOptions : Options$/;"	c
+defaultOptions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^defaultOptions : Options$/;"	c
+defaultOptions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^defaultOptions : Options$/;"	c
+defaultValue	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^defaultValue : String -> Attribute msg$/;"	f
+defer	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^defer : Bool -> Attribute msg$/;"	f
+degrees	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^degrees : Float -> Float$/;"	f
+degrees	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function degrees(d)$/;"	f
+del	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^del : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+details	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^details : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+dfn	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^dfn : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+dict	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^dict : Decoder a -> Decoder (Dict String a)$/;"	f
+diff	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^diff : Dict comparable v -> Dict comparable v -> Dict comparable v$/;"	f
+diff	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^diff : Set comparable -> Set comparable -> Set comparable$/;"	f
+diff	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function diff(a, b)$/;"	f
+diffChildren	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function diffChildren(aParent, bParent, patches, rootIndex)$/;"	f
+diffFacts	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function diffFacts(a, b, category)$/;"	f
+diffHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function diffHelp(a, b, patches, index)$/;"	f
+diffKeyedChildren	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function diffKeyedChildren(aParent, bParent, patches, rootIndex)$/;"	f
+dir	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^dir : String -> Attribute msg$/;"	f
+disabled	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^disabled : Bool -> Attribute msg$/;"	f
+dispatchEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function dispatchEffects(managers, cmdBag, subBag)$/;"	f
+display	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  display: block;$/;"	c
+div	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function div(a, b)$/;"	f	function:_elm_lang$core$Native_Basics
+div	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^    div : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+div	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^div : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+div	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^div : List (Property msg) -> List (Node msg) -> Node msg$/;"	f
+dl	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^dl : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+doc	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var popoutRef = { doc: undefined };$/;"	p	class:object.popoutRef
+download	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^download : Bool -> Attribute msg$/;"	f
+download	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function download(historyLength, json)$/;"	f	function:_elm_lang$virtual_dom$Native_Debug
+download	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^download : Metadata -> History model msg -> Cmd (Msg msg)$/;"	f
+downloadAs	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^downloadAs : String -> Attribute msg$/;"	f
+draggable	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^draggable : String -> Attribute msg$/;"	f
+drop	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^drop : Int -> List a -> List a$/;"	f
+dropLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function dropLeft(n, str)$/;"	f	function:_elm_lang$core$Native_String
+dropLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^dropLeft : Int -> String -> String$/;"	f
+dropRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function dropRight(n, str)$/;"	f	function:_elm_lang$core$Native_String
+dropRight	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^dropRight : Int -> String -> String$/;"	f
+dropzone	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^dropzone : String -> Attribute msg$/;"	f
+dt	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^dt : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+elideMiddle	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^elideMiddle : String -> String$/;"	f
+elmToJs	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^elmToJs : a -> Encode.Value$/;"	f
+em	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^em : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+embed	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^embed : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+embed	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	object['embed'] = function embed(node, flags)$/;"	f
+embedHtml	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^    embedHtml : Html Never -> Html msg$/;"	f
+emit	elm-stuff/packages/elm-lang/core/5.1.1/tests/Main.elm	/^port emit : ( String, Value ) -> Cmd msg$/;"	p
+empty	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^empty : Array a$/;"	c
+empty	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^empty : Dict k v$/;"	c
+empty	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^empty : Set a$/;"	c
+empty	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^empty : model -> History model msg$/;"	f
+emptyTagChanges	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^emptyTagChanges : Bool -> TagChanges$/;"	f
+encode	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^encode : Int -> Value -> String$/;"	f
+encode	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function encode(indentLevel, value)$/;"	f
+encode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^encode : History model msg -> Encode.Value$/;"	f
+encode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encode : Metadata -> Encode.Value$/;"	f
+encodeAlias	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encodeAlias : Alias -> Encode.Value$/;"	f
+encodeDict	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encodeDict : (a -> Encode.Value) -> Dict String a -> Encode.Value$/;"	f
+encodeHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^encodeHelp : Snapshot model msg -> List Encode.Value -> List Encode.Value$/;"	f
+encodeObject	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function encodeObject(keyValuePairs)$/;"	f
+encodeTypes	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encodeTypes : Types -> Encode.Value$/;"	f
+encodeUnion	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encodeUnion : Union -> Encode.Value$/;"	f
+encodeVersions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^encodeVersions : Versions -> Encode.Value$/;"	f
+enctype	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^enctype : String -> Attribute msg$/;"	f
+endsWith	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function endsWith(sub, str)$/;"	f	function:_elm_lang$core$Native_String
+endsWith	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^endsWith : String -> String -> Bool$/;"	f
+enqueue	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function enqueue(msg)$/;"	f	function:initialize
+enqueue	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function enqueue(process)$/;"	f
+ensureBlackRoot	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^ensureBlackRoot : Dict k v -> Dict k v$/;"	f
+entry	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			entry: entry$/;"	p	class:entry.data.data
+eq	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function eq(x, y)$/;"	f	function:_elm_lang$core$Native_Utils
+eqHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function eqHelp(x, y, depth, stack)$/;"	f	function:_elm_lang$core$Native_Utils
+equalEvents	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function equalEvents(a, b)$/;"	f
+equality	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function equality(a, b)$/;"	f
+errorMessage	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var errorMessage =$/;"	v
+escape	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function escape(str)$/;"	f	function:_elm_lang$core$Native_Regex
+escape	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^escape : String -> String$/;"	f
+evaluate	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^evaluate : Report -> Status$/;"	f
+evaluateChange	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^evaluateChange : Change -> Status$/;"	f
+eventHandler	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	function eventHandler(event)$/;"	f	function:makeEventHandler
+every	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^every : Time -> (Time -> msg) -> Sub msg$/;"	f
+explanationBad	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^explanationBad : String$/;"	c
+explanationRisky	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^explanationRisky : String$/;"	c
+factsDiff	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			var factsDiff = diffFacts(a.facts, b.facts);$/;"	v
+fail	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^fail : String -> Decoder a$/;"	f
+fail	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function fail(msg)$/;"	f
+fail	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function fail(error)$/;"	f
+fail	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^fail : x -> Task x a$/;"	f
+field	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^field : String -> Decoder a -> Decoder a$/;"	f
+fieldset	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^fieldset : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+figcaption	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^figcaption : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+figure	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^figure : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^filter : (a -> Bool) -> Array a -> Array a$/;"	f
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^filter : (comparable -> v -> Bool) -> Dict comparable v -> Dict comparable v$/;"	f
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^filter : (a -> Bool) -> List a -> List a$/;"	f
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function filter(pred, str)$/;"	f	function:_elm_lang$core$Native_String
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^filter : (comparable -> Bool) -> Set comparable -> Set comparable$/;"	f
+filter	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^filter : (Char -> Bool) -> String -> String$/;"	f
+filterMap	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^filterMap : (a -> Maybe b) -> List a -> List b$/;"	f
+find	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function find(n, re, str)$/;"	f	function:_elm_lang$core$Native_Regex
+find	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^find : HowMany -> Regex -> String -> List Match$/;"	f
+findProblems	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^findProblems : String -> List Problem$/;"	f
+first	elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm	/^first : (a1, a2) -> a1$/;"	f
+flip	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^flip : (a -> b -> c) -> (b -> a -> c)$/;"	f
+float	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^float : Decoder Float$/;"	c
+float	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^float : Float -> Value$/;"	f
+float	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^float : Float -> Float -> Generator Float$/;"	f
+float	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  float: left;$/;"	c
+float	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  float: right;$/;"	c
+floatErr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function floatErr(s)$/;"	f	function:_elm_lang$core$Native_String
+floatList	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    floatList : Generator (List Float)$/;"	c
+floor	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^floor : Float -> Int$/;"	f
+fmod	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^fmod : Float -> Int -> Float$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^foldl : (a -> b -> b) -> b -> Array a -> b$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^foldl : (comparable -> v -> b -> b) -> b -> Dict comparable v -> b$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^foldl : (a -> b -> b) -> b -> List a -> b$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function foldl(f, b, a)$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function foldl(f, b, str)$/;"	f	function:_elm_lang$core$Native_String
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^foldl : (comparable -> b -> b) -> b -> Set comparable -> b$/;"	f
+foldl	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^foldl : (Char -> b -> b) -> b -> String -> b$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^foldr : (a -> b -> b) -> b -> Array a -> b$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^foldr : (comparable -> v -> b -> b) -> b -> Dict comparable v -> b$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^foldr : (a -> b -> b) -> b -> List a -> b$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function foldr(f, b, a)$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function foldr(f, b, xs)$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function foldr(f, b, str)$/;"	f	function:_elm_lang$core$Native_String
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^foldr : (comparable -> b -> b) -> b -> Set comparable -> b$/;"	f
+foldr	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^foldr : (Char -> b -> b) -> b -> String -> b$/;"	f
+footer	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^footer : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+for	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^for : String -> Attribute msg$/;"	f
+form	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^form : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+form	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^form : String -> Attribute msg$/;"	f
+formaction	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^formaction : String -> Attribute msg$/;"	f
+fromArray	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function fromArray(arr)$/;"	f
+fromChar	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^fromChar : Char -> String$/;"	f
+fromCode	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^fromCode : KeyCode -> Char$/;"	f
+fromJSArray	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function fromJSArray(jsArray)$/;"	f
+fromJSArray_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function fromJSArray_(jsArray, h, from, to)$/;"	f
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^fromList : List a -> Array a$/;"	f
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^fromList : List (comparable,v) -> Dict comparable v$/;"	f
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function fromList(list)$/;"	f
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function fromList(chars)$/;"	f	function:_elm_lang$core$Native_String
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^fromList : List comparable -> Set comparable$/;"	f
+fromList	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^fromList : List Char -> String$/;"	f
+fromListPush	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function fromListPush(toPush, nodes)$/;"	f
+fromMaybe	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^fromMaybe : x -> Maybe a -> Result x a$/;"	f
+fromPolar	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^fromPolar : (Float,Float) -> (Float,Float)$/;"	f
+fromPolar	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function fromPolar(point)$/;"	f
+fromString	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^fromString : String -> Result String Date$/;"	f
+fromString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Date.js	/^function fromString(str)$/;"	f	function:_elm_lang$core$Native_Date
+fromTime	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^fromTime : Time -> Date$/;"	f
+fullscreen	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	object['fullscreen'] = function fullscreen(flags)$/;"	f
+gatherEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function gatherEffects(isCmd, bag, effectsDict, taggers)$/;"	f
+generate	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^generate : (a -> msg) -> Generator a -> Cmd msg$/;"	f
+get	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^get : Int -> Array a -> Maybe a$/;"	f
+get	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^get : comparable -> Dict comparable v -> Maybe v$/;"	f
+get	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function get(i, array)$/;"	f	function:_elm_lang$core$Native_Array
+get	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^get : (msg -> model -> (model, a)) -> Int -> History model msg -> ( model, msg )$/;"	f
+get2	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function get2(a, b, index)$/;"	f
+getFirstMonth	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^    getFirstMonth : List Int -> Maybe Int$/;"	f
+getHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^getHelp : (msg -> model -> (model, a)) -> msg -> GetResult model msg -> GetResult model msg$/;"	f
+getLatestModel	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^getLatestModel : State model -> model$/;"	f
+getResources	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^    getResources : Task Error Resource$/;"	c
+getSlot	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function getSlot(i, a)$/;"	f
+goodFloat	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm	/^goodFloat : String -> Float -> Test$/;"	f
+goodInt	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm	/^goodInt : String -> Int -> Test$/;"	f
+gray	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^gray : Color$/;"	c
+grayscale	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^grayscale : Float -> Color$/;"	f
+green	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^green : Color$/;"	c
+greeting	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^    greeting : Html msg$/;"	c
+greeting	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^    greeting : Html$/;"	c
+greeting	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^    greeting : Node msg$/;"	c
+grey	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^grey : Color$/;"	c
+greyscale	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^greyscale : Float -> Color$/;"	f
+guid	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function guid(_)$/;"	f
+h1	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h1 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+h1	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^h1 : List (Property msg) -> List (Node msg) -> Node msg$/;"	f
+h2	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h2 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+h3	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h3 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+h4	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h4 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+h5	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h5 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+h6	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^h6 : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+handleFieldUpdate	src/Main.elm	/^handleFieldUpdate : InputFieldUpdate -> InputFieldModel -> InputFieldModel$/;"	f
+hasProblem	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^hasProblem : String -> (Problem, String) -> Maybe Problem$/;"	f
+hasTagChanges	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^hasTagChanges : TagChanges -> Bool$/;"	f
+head	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^head : List a -> Maybe a$/;"	f
+header	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^header : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+headers	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^headers : String -> Attribute msg$/;"	f
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				height: 0,$/;"	p	class:var.leaf
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				height: 0,$/;"	p	class:var.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			height: 0,$/;"	p	class:var.leaf
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			height: h + 1,$/;"	p	class:nodes
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			height: h + 1,$/;"	p	class:var.node
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: a.height,$/;"	p	class:indexedMap_.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: a.height,$/;"	p	class:map.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: a.height,$/;"	p	class:nodeCopy.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: a.height,$/;"	p	class:sliceLeft.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: a.height,$/;"	p	class:sliceRight.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		height: h,$/;"	p	class:createNode.a
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		var newA = { ctor:'_Array', height:0 };$/;"	p	class:var.newA
+height	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^	height: 0,$/;"	p	class:_elm_lang$core$Native_Array.empty
+height	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^height : Int -> Attribute msg$/;"	f
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^    height: 100%;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  height: 100%;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  height: 24px;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  height: 30px;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  height: 100%;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  height: 60px;$/;"	c
+height	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  height: 80px;$/;"	c
+hello	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^    hello : Html msg$/;"	c
+hello	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^    hello : Node msg$/;"	c
+hex	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^        hex : Test$/;"	c
+hidden	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^hidden : Bool -> Attribute msg$/;"	f
+holeArray	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm	/^holeArray : Array.Array Int$/;"	c
+hour	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^hour : Date -> Int$/;"	f
+hour	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^hour : Time$/;"	c
+hr	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^hr : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+href	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^href : String -> Attribute msg$/;"	f
+href	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^href : String -> Property msg$/;"	f
+hreflang	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^hreflang : String -> Attribute msg$/;"	f
+hsl	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^hsl : Float -> Float -> Float -> Color$/;"	f
+hsl	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    hsl : Generator Color.Color$/;"	c
+hslToRgb	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^hslToRgb : Float -> Float -> Float -> (Float,Float,Float)$/;"	f
+hsla	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^hsla : Float -> Float -> Float -> Float -> Color$/;"	f
+htmlToProgram	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function htmlToProgram(vnode)$/;"	f
+httpEquiv	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^httpEquiv : String -> Attribute msg$/;"	f
+iLogBase	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^iLogBase : Int -> Int -> Int$/;"	f
+id	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^		id: _elm_lang$core$Native_Utils.guid(),$/;"	p	class:rawSpawn.process
+id	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^id : String -> Attribute msg$/;"	f
+id	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^id : String -> Property msg$/;"	f
+identity	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^identity : a -> a$/;"	f
+identity	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function identity(value)$/;"	f
+iframe	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^iframe : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+ignore	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^ignore : String -> value -> a -> a$/;"	f
+img	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^img : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+inHours	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^inHours : Time -> Float$/;"	f
+inMilliseconds	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^inMilliseconds : Time -> Float$/;"	f
+inMinutes	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^inMinutes : Time -> Float$/;"	f
+inSeconds	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^inSeconds : Time -> Float$/;"	f
+include	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^include: default, rect, circle, poly. This attribute can be paired with$/;"	c
+incomingPort	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function incomingPort(name, converter)$/;"	f
+incomingPortMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^var incomingPortMap = F2(function subMap(tagger, finalTagger)$/;"	v
+index	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^index : Int -> Decoder a -> Decoder a$/;"	f
+index	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			index: bIndex,$/;"	p	class:entry
+index	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			index: index,$/;"	p	class:changes
+indexedMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^indexedMap : (Int -> a -> b) -> Array a -> Array b$/;"	f
+indexedMap	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^indexedMap : (Int -> a -> b) -> List a -> List b$/;"	f
+indexedMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function indexedMap(f, a)$/;"	f
+indexedMap_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function indexedMap_(f, a, from)$/;"	f
+indexes	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function indexes(sub, str)$/;"	f	function:_elm_lang$core$Native_String
+indexes	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^indexes : String -> String -> List Int$/;"	f
+indices	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^indices : String -> String -> List Int$/;"	f
+info	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    info : Decoder Info$/;"	c
+infoHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    infoHelp : Int -> Decoder Info$/;"	f
+init	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^init : Task Never Seed$/;"	c
+init	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^init : Task Never ()$/;"	c
+init	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^init : Task Never (State msg)$/;"	c
+init	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function init(value)$/;"	f
+init	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^init : a -> Expando$/;"	f
+init	src/Main.elm	/^init : ( Model, Cmd Msg )$/;"	c
+initCons	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^var initCons = F2(initConsHelp);$/;"	v
+initConsHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function initConsHelp(value, list)$/;"	f
+initHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^initHelp : Bool -> Expando -> Expando$/;"	f
+initInputFieldModel	src/Main.elm	/^initInputFieldModel : InputFieldModel$/;"	c
+initKeyValueCons	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^var initKeyValueCons = F3(initKeyValueConsHelp);$/;"	v
+initKeyValueConsHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function initKeyValueConsHelp(key, value, list)$/;"	f
+initState	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^initState : Int -> State$/;"	f
+initialModel	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^initialModel : History model msg -> model$/;"	f
+initialSeed	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^initialSeed : Int -> Seed$/;"	f
+initialize	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^initialize : Int -> (Int -> a) -> Array a$/;"	f
+initialize	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function initialize(len, f)$/;"	f	function:_elm_lang$core$Native_Array
+initialize	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function initialize(init, update, subscriptions, renderer)$/;"	f
+initialize_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function initialize_(f, h, from, to)$/;"	f	function:_elm_lang$core$Native_Array
+input	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^input : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+ins	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^ins : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+insert	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^insert : comparable -> v -> Dict comparable v -> Dict comparable v$/;"	f
+insert	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function insert(isCmd, newEffect, effects)$/;"	f
+insert	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^insert : comparable -> Set comparable -> Set comparable$/;"	f
+insertLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function insertLeft(parent, node)$/;"	f
+insertNode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function insertNode(changes, localPatches, key, vnode, bIndex, inserts)$/;"	f
+insertRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function insertRight(parent, node)$/;"	f
+int	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^int : Decoder Int$/;"	c
+int	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^int : Int -> Value$/;"	f
+int	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^int : Int -> Int -> Generator Int$/;"	f
+intErr	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function intErr(s)$/;"	f	function:_elm_lang$core$Native_String
+intList	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    intList : Generator (List Int)$/;"	c
+intPairs	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    intPairs : Generator (List (Int, Int))$/;"	c
+intTests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Json.elm	/^intTests : Test$/;"	c
+intersect	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^intersect : Dict comparable v -> Dict comparable v -> Dict comparable v$/;"	f
+intersect	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^intersect : Set comparable -> Set comparable -> Set comparable$/;"	f
+intersperse	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^intersperse : a -> List a -> List a$/;"	f
+isBBlack	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^isBBlack : Dict k v -> Bool$/;"	f
+isBetween	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isBetween : Char -> Char -> Char -> Bool$/;"	f
+isBlocking	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^isBlocking : State -> Bool$/;"	f
+isDigit	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isDigit : Char -> Bool$/;"	f
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^isEmpty : Array a -> Bool$/;"	f
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^isEmpty : Dict k v -> Bool$/;"	f
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^isEmpty : List a -> Bool$/;"	f
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function isEmpty(str)$/;"	f	function:_elm_lang$core$Native_String
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^isEmpty : Set a -> Bool$/;"	f
+isEmpty	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^isEmpty : String -> Bool$/;"	f
+isForeign	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		isForeign: true$/;"	p	class:effectManagers
+isHexDigit	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isHexDigit : Char -> Bool$/;"	f
+isInfinite	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^isInfinite : Float -> Bool$/;"	f
+isInfinite	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function isInfinite(n)$/;"	f
+isLower	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isLower : Char -> Bool$/;"	f
+isNaN	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^isNaN : Float -> Bool$/;"	f
+isOctDigit	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isOctDigit : Char -> Bool$/;"	f
+isPortable	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^isPortable : Metadata -> Maybe Error$/;"	f
+isScroll	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var isScroll = event.type === 'scroll' || event.type === 'wheel';$/;"	v
+isTeen	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^    isTeen : Int -> Maybe Int$/;"	f
+isUpper	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^isUpper : Char -> Bool$/;"	f
+ismap	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^ismap : Bool -> Attribute msg$/;"	f
+itemprop	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^itemprop : String -> Attribute msg$/;"	f
+join	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function join(sep, strs)$/;"	f	function:_elm_lang$core$Native_String
+join	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^join : String -> List String -> String$/;"	f
+jsReplacer	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^	function jsReplacer(match)$/;"	f	function:replace
+jsToElm	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^jsToElm : Encode.Value -> a$/;"	f
+jsToString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function jsToString(value)$/;"	f
+kbd	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^kbd : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+keyCode	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^keyCode : Json.Decoder Int$/;"	c
+keyValuePairs	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^keyValuePairs : Decoder a -> Decoder (List (String, a))$/;"	f
+keyValuePairs	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^			var keyValuePairs = _elm_lang$core$Native_List.Nil;$/;"	v
+keyedNode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function keyedNode(tag, factList, kidList)$/;"	f
+keyedNode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^keyedNode : String -> List (Property msg) -> List ( String, Node msg ) -> Node msg$/;"	f
+keyedNode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^keyedNode : String -> List (Property msg) -> List ( String, Node msg ) -> Node msg$/;"	f
+keygen	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^keygen : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+keys	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^keys : Dict comparable v -> List comparable$/;"	f
+keytype	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^keytype : String -> Attribute msg$/;"	f
+kill	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function kill(process)$/;"	f
+kill	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^    kill : Id exit msg -> Task x ()$/;"	f
+kill	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^kill : Id -> Task x ()$/;"	f
+kind	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^kind : String -> Attribute msg$/;"	f
+label	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^label : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+label	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^label : String -> Attribute msg$/;"	f
+lang	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^lang : String -> Attribute msg$/;"	f
+language	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^language : String -> Attribute msg$/;"	f
+lazy	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^lazy : (() -> Decoder a) -> Decoder a$/;"	f
+lazy	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Lazy.elm	/^lazy : (a -> Html msg) -> a -> Html msg$/;"	f
+lazy	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function lazy(fn, a)$/;"	f
+lazy	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^lazy : (a -> Node msg) -> a -> Node msg$/;"	f
+lazy	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^lazy : (a -> Node msg) -> a -> Node msg$/;"	f
+lazy2	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Lazy.elm	/^lazy2 : (a -> b -> Html msg) -> a -> b -> Html msg$/;"	f
+lazy2	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function lazy2(fn, a, b)$/;"	f
+lazy2	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^lazy2 : (a -> b -> Node msg) -> a -> b -> Node msg$/;"	f
+lazy2	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^lazy2 : (a -> b -> Node msg) -> a -> b -> Node msg$/;"	f
+lazy3	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Lazy.elm	/^lazy3 : (a -> b -> c -> Html msg) -> a -> b -> c -> Html msg$/;"	f
+lazy3	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function lazy3(fn, a, b, c)$/;"	f
+lazy3	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^lazy3 : (a -> b -> c -> Node msg) -> a -> b -> c -> Node msg$/;"	f
+lazy3	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^lazy3 : (a -> b -> c -> Node msg) -> a -> b -> c -> Node msg$/;"	f
+leaf	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function leaf(home)$/;"	f
+left	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function left(n, str)$/;"	f	function:_elm_lang$core$Native_String
+left	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^left : Int -> String -> String$/;"	f
+left	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  left: 0;$/;"	c
+leftPad	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^leftPad : Maybe a -> VDom.Property msg$/;"	f
+legend	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^legend : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+len	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^			var len = value.length;$/;"	v
+length	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^length : Array a -> Int$/;"	f
+length	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^length : List a -> Int$/;"	f
+length	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function length(array)$/;"	f
+length	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function length(str)$/;"	f	function:_elm_lang$core$Native_String
+length	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^length : String -> Int$/;"	f
+lessBlack	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^lessBlack : NColor -> NColor$/;"	f
+lessBlackTree	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^lessBlackTree : Dict k v -> Dict k v$/;"	f
+letQualified	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^letQualified : number$/;"	c
+letter	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    letter : Generator Char$/;"	c
+li	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^li : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+lightBlue	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightBlue : Color$/;"	c
+lightBrown	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightBrown : Color$/;"	c
+lightCharcoal	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightCharcoal : Color$/;"	c
+lightGray	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightGray : Color$/;"	c
+lightGreen	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightGreen : Color$/;"	c
+lightGrey	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightGrey : Color$/;"	c
+lightOrange	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightOrange : Color$/;"	c
+lightPurple	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightPurple : Color$/;"	c
+lightRed	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightRed : Color$/;"	c
+lightYellow	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^lightYellow : Color$/;"	c
+lineStarter	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^lineStarter : Maybe String -> Maybe Bool -> List (Node msg) -> List (Node msg)$/;"	f
+linear	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^linear : (Float, Float) -> (Float, Float) -> List (Float,Color) -> Gradient$/;"	f
+lines	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function lines(str)$/;"	f	function:_elm_lang$core$Native_String
+lines	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^lines : String -> List String$/;"	f
+list	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^list : Decoder a -> Decoder (List a)$/;"	f
+list	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^list : List Value -> Value$/;"	f
+list	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^			var list = _elm_lang$core$Native_List.Nil;$/;"	v
+list	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^list : Int -> Generator a -> Generator (List a)$/;"	f
+list	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^list : String -> Attribute msg$/;"	f
+list	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^		var list = _elm_lang$core$Native_List.Nil;$/;"	v
+listEquality	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function listEquality(aDecoders, bDecoders)$/;"	f
+listHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^listHelp : List a -> Int -> (Seed -> (a,Seed)) -> Seed -> (List a, Seed)$/;"	f
+log	elm-stuff/packages/elm-lang/core/5.1.1/src/Debug.elm	/^log : String -> a -> a$/;"	f
+log	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Debug.js	/^function log(tag, value)$/;"	f	function:_elm_lang$core$Native_Debug
+logBase	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^logBase : Float -> Float -> Float$/;"	f
+logBase	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function logBase(base, n)$/;"	f	function:_elm_lang$core$Native_Basics
+loop	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function loop(state)$/;"	f	function:spawnLoop
+loop	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^loop : Bool -> Attribute msg$/;"	f
+lowercaseLetter	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    lowercaseLetter : Generator Char$/;"	c
+main	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		main: callback,$/;"	p	class:makeManager.router
+main	elm-stuff/packages/elm-lang/core/5.1.1/tests/Main.elm	/^main : TestProgram$/;"	c
+main	src/Main.elm	/^main : Program Never Model Msg$/;"	c
+main_	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^main_ : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+makeArrow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^makeArrow : String -> Node msg$/;"	f
+makeDebugStepper	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makeDebugStepper(initialModel, view, eventNode, parentNode, moduleName, popoutRef)$/;"	f
+makeEventHandler	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makeEventHandler(eventNode, info)$/;"	f
+makeIgnorer	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makeIgnorer(overlayNode)$/;"	f
+makeManager	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function makeManager(info, callback)$/;"	f
+makePatch	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makePatch(type, index, data)$/;"	f
+makeProgram	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makeProgram(flagChecker)$/;"	f
+makeStepper	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function makeStepper(domNode, view, initialVirtualNode, eventNode)$/;"	f
+manifest	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^manifest : String -> Attribute msg$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^map : (a -> b) -> Array a -> Array b$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^map : (comparable -> a -> b) -> Dict comparable a -> Dict comparable b$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map : (a -> value) -> Decoder a -> Decoder value$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^map : (a -> b) -> List a -> List b$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^map : (a -> b) -> Maybe a -> Maybe b$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function map(f, a)$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function map(tagger, bag)$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function map(f, str)$/;"	f	function:_elm_lang$core$Native_String
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm	/^map : (a -> msg) -> Cmd a -> Cmd msg$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm	/^map : (a -> msg) -> Sub a -> Sub msg$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^map : (a -> b) -> Generator a -> Generator b$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^map : (a -> value) -> Result x a -> Result x value$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^map : (comparable -> comparable2) -> Set comparable -> Set comparable2$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^map : (Char -> Char) -> String -> String$/;"	f
+map	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^map : (a -> b) -> Task x a -> Task x b$/;"	f
+map	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^map : (a -> msg) -> Html a -> Html msg$/;"	f
+map	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^map : (a -> msg) -> Attribute a -> Attribute msg$/;"	f
+map	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function map(tagger, node)$/;"	f
+map	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^map : (a -> msg) -> Node a -> Node msg$/;"	f
+map	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^map : (a -> msg) -> Node a -> Node msg$/;"	f
+map1	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map1(f, d1)$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map2 : (a -> b -> value) -> Decoder a -> Decoder b -> Decoder value$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^map2 : (a -> b -> result) -> List a -> List b -> List result$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^map2 : (a -> b -> value) -> Maybe a -> Maybe b -> Maybe value$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map2(f, d1, d2)$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function map2(f, xs, ys)$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^map2 : (a -> b -> c) -> Generator a -> Generator b -> Generator c$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^map2 : (a -> b -> value) -> Result x a -> Result x b -> Result x value$/;"	f
+map2	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^map2 : (a -> b -> result) -> Task x a -> Task x b -> Task x result$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map3 : (a -> b -> c -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder value$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^map3 : (a -> b -> c -> result) -> List a -> List b -> List c -> List result$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^map3 : (a -> b -> c -> value) -> Maybe a -> Maybe b -> Maybe c -> Maybe value$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map3(f, d1, d2, d3)$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function map3(f, xs, ys, zs)$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^map3 : (a -> b -> c -> d) -> Generator a -> Generator b -> Generator c -> Generator d$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^map3 : (a -> b -> c -> value) -> Result x a -> Result x b -> Result x c -> Result x value$/;"	f
+map3	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^map3 : (a -> b -> c -> result) -> Task x a -> Task x b -> Task x c -> Task x result$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map4 : (a -> b -> c -> d -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder d -> Decoder value$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^map4 : (a -> b -> c -> d -> result) -> List a -> List b -> List c -> List d -> List result$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^map4 : (a -> b -> c -> d -> value) -> Maybe a -> Maybe b -> Maybe c -> Maybe d -> Maybe value$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map4(f, d1, d2, d3, d4)$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function map4(f, ws, xs, ys, zs)$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^map4 : (a -> b -> c -> d -> e) -> Generator a -> Generator b -> Generator c -> Generator d -> Generator e$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^map4 : (a -> b -> c -> d -> value) -> Result x a -> Result x b -> Result x c -> Result x d -> Result x value$/;"	f
+map4	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^map4 : (a -> b -> c -> d -> result) -> Task x a -> Task x b -> Task x c -> Task x d -> Task x result$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map5 : (a -> b -> c -> d -> e -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder d -> Decoder e -> Decoder value$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^map5 : (a -> b -> c -> d -> e -> result) -> List a -> List b -> List c -> List d -> List e -> List result$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^map5 : (a -> b -> c -> d -> e -> value) -> Maybe a -> Maybe b -> Maybe c -> Maybe d -> Maybe e -> Maybe value$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map5(f, d1, d2, d3, d4, d5)$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function map5(f, vs, ws, xs, ys, zs)$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^map5 : (a -> b -> c -> d -> e -> f) -> Generator a -> Generator b -> Generator c -> Generator d -> Generator e -> Generator f$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^map5 : (a -> b -> c -> d -> e -> value) -> Result x a -> Result x b -> Result x c -> Result x d -> Result x e -> Result x value$/;"	f
+map5	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^map5 : (a -> b -> c -> d -> e -> result) -> Task x a -> Task x b -> Task x c -> Task x d -> Task x e -> Task x result$/;"	f
+map6	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map6 : (a -> b -> c -> d -> e -> f -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder d -> Decoder e -> Decoder f -> Decoder value$/;"	f
+map6	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map6(f, d1, d2, d3, d4, d5, d6)$/;"	f
+map7	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map7 : (a -> b -> c -> d -> e -> f -> g -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder d -> Decoder e -> Decoder f -> Decoder g -> Decoder value$/;"	f
+map7	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map7(f, d1, d2, d3, d4, d5, d6, d7)$/;"	f
+map8	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^map8 : (a -> b -> c -> d -> e -> f -> g -> h -> value) -> Decoder a -> Decoder b -> Decoder c -> Decoder d -> Decoder e -> Decoder f -> Decoder g -> Decoder h -> Decoder value$/;"	f
+map8	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function map8(f, d1, d2, d3, d4, d5, d6, d7, d8)$/;"	f
+mapArray	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm	/^mapArray : Array.Array a -> Array.Array a$/;"	f
+mapError	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^mapError : (x -> y) -> Result x a -> Result y a$/;"	f
+mapError	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^mapError : (x -> y) -> Task x a -> Task y a$/;"	f
+mapFirst	elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm	/^mapFirst : (a -> b) -> (a, a2) -> (b, a2)$/;"	f
+mapMany	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function mapMany(f, decoders)$/;"	f
+mapProperty	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function mapProperty(func, property)$/;"	f
+mapProperty	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^mapProperty : (a -> b) -> Property a -> Property b$/;"	f
+mapSecond	elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm	/^mapSecond : (a -> b) -> (a1, a) -> (a1, b)$/;"	f
+margin	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  margin: 0;$/;"	c
+margin	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  margin: 8px 0;$/;"	c
+mark	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^mark : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+math	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^math : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+max	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^max : comparable -> comparable -> comparable$/;"	f
+max	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function max(a, b)$/;"	f	function:_elm_lang$core$Native_Basics
+max	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^max : String -> Attribute msg$/;"	f
+maxInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^maxInt : Int$/;"	c
+maxSnapshotSize	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^maxSnapshotSize : Int$/;"	c
+maxWithDefault	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^maxWithDefault : k -> v -> Dict k v -> (k, v)$/;"	f
+maximum	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^maximum : List comparable -> Maybe comparable$/;"	f
+maxlength	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^maxlength : Int -> Attribute msg$/;"	f
+maybe	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^maybe : Decoder a -> Decoder (Maybe a)$/;"	f
+maybeCons	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^maybeCons : (a -> Maybe b) -> a -> List b -> List b$/;"	f
+maybeParseInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    maybeParseInt : String -> Maybe Int$/;"	f
+media	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^media : String -> Attribute msg$/;"	f
+member	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^member : comparable -> Dict comparable v -> Bool$/;"	f
+member	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^member : a -> List a -> Bool$/;"	f
+member	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^member : comparable -> Set comparable -> Bool$/;"	f
+menu	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^menu : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+menuitem	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^menuitem : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+merge	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^merge : a -> Expando -> Expando$/;"	f
+mergeDictHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^mergeDictHelp : Dict String Expando -> String -> Expando -> Expando$/;"	f
+mergeHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^mergeHelp : Expando -> Expando -> Expando$/;"	f
+mergeListHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^mergeListHelp : List Expando -> List Expando -> List Expando$/;"	f
+mergeSplit	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm	/^mergeSplit : Int -> Array.Array a -> Array.Array a$/;"	f
+messageToString	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function messageToString(value)$/;"	f	function:_elm_lang$virtual_dom$Native_Debug
+meter	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^meter : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+method	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^method : String -> Attribute msg$/;"	f
+millisecond	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^millisecond : Date -> Int$/;"	f
+millisecond	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^millisecond : Time$/;"	c
+min	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^min : comparable -> comparable -> comparable$/;"	f
+min	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function min(a, b)$/;"	f	function:_elm_lang$core$Native_Basics
+min	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^min : String -> Attribute msg$/;"	f
+minInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^minInt : Int$/;"	c
+minimum	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^minimum : List comparable -> Maybe comparable$/;"	f
+minlength	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^minlength : Int -> Attribute msg$/;"	f
+minute	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^minute : Date -> Int$/;"	f
+minute	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^minute : Time$/;"	c
+mod	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function mod(a, b)$/;"	f	function:_elm_lang$core$Native_Basics
+month	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^month : Date -> Month$/;"	f
+moreBlack	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^moreBlack : NColor -> NColor$/;"	f
+mostEvents	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var mostEvents = [$/;"	v
+multiple	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^multiple : Bool -> Attribute msg$/;"	f
+myStyle	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^    myStyle : Attribute msg$/;"	c
+myStyle	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^    myStyle : Property msg$/;"	c
+name	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^name : String -> Attribute msg$/;"	f
+nativeBinding	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function nativeBinding(callback)$/;"	f
+nav	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^nav : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+negate	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^negate : number -> number$/;"	f
+negate	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function negate(n)$/;"	f	function:_elm_lang$core$Native_Basics
+never	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^never : Never -> a$/;"	f
+next	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^next : State -> (Int, State)$/;"	f
+next	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var next = view(model);$/;"	v
+node	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^node : String -> List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+node	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Keyed.elm	/^node : String -> List (Attribute msg) -> List ( String, Html msg ) -> Html msg$/;"	f
+node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var node = event.target;$/;"	v
+node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function node(tag)$/;"	f
+node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^node : String -> List (Property msg) -> List (Node msg) -> Node msg$/;"	f
+node	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^node : String -> List (Property msg) -> List (Node msg) -> Node msg$/;"	f
+nodeCopy	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function nodeCopy(a)$/;"	f
+nodeHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function nodeHelp(tag, factList, kidList)$/;"	f
+none	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm	/^none : Cmd msg$/;"	c
+none	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm	/^none : Sub msg$/;"	c
+none	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^none : State$/;"	c
+normalRenderer	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function normalRenderer(parentNode, view)$/;"	f
+normalSetup	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function normalSetup(impl, object, moduleName, flagChecker)$/;"	f
+not	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^not : Bool -> Bool$/;"	f
+not	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function not(b)$/;"	f
+novalidate	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^novalidate : Bool -> Attribute msg$/;"	f
+now	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^now : Task x Date$/;"	c
+now	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^now : Task x Time$/;"	c
+null	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^null : a -> Decoder a$/;"	f
+null	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^null : Value$/;"	c
+nullable	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    nullable : Decoder a -> Decoder (Maybe a)$/;"	f
+nullable	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^nullable : Decoder a -> Decoder (Maybe a)$/;"	f
+object	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^object : List (String, Value) -> Value$/;"	f
+object	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^object : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+object	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	object['embed'] = function embed(node, flags)$/;"	f
+ok	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function ok(value)$/;"	f
+ol	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^ol : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+ol	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Keyed.elm	/^ol : List (Attribute msg) -> List ( String, Html msg ) -> Html msg$/;"	f
+on	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^on : String -> Json.Decoder msg -> Attribute msg$/;"	f
+on	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function on(name, options, decoder)$/;"	f
+on	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^on : String -> Json.Decoder msg -> Property msg$/;"	f
+on	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^on : String -> Decode.Decoder msg -> Property msg$/;"	f
+onBlur	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onBlur : msg -> Attribute msg$/;"	f
+onCheck	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^    onCheck : (Bool -> msg) -> Attribute msg$/;"	f
+onCheck	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onCheck : (Bool -> msg) -> Attribute msg$/;"	f
+onClick	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^    onClick : msg -> Attribute msg$/;"	f
+onClick	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onClick : msg -> Attribute msg$/;"	f
+onClick	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^    onClick : msg -> Property msg$/;"	f
+onClick	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^onClick : msg -> Property msg$/;"	f
+onDoubleClick	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onDoubleClick : msg -> Attribute msg$/;"	f
+onEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function onEffects(router, cmdList, state)$/;"	f	function:setupOutgoingPort
+onEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function onEffects(router, subList, state)$/;"	f	function:setupIncomingPort
+onEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^onEffects : Platform.Router msg Never -> List (MyCmd msg) -> Seed -> Task Never Seed$/;"	f
+onEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^onEffects : Platform.Router msg Never -> List (MyCmd msg) -> () -> Task Never ()$/;"	f
+onEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^onEffects : Platform.Router msg Time -> List (MySub msg) -> State msg -> Task Never (State msg)$/;"	f
+onError	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function onError(callback, task)$/;"	f
+onError	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^onError : (x -> Task y a) -> Task x a -> Task y a$/;"	f
+onFocus	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onFocus : msg -> Attribute msg$/;"	f
+onInput	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^    onInput : (String -> msg) -> Attribute msg$/;"	f
+onInput	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onInput : (String -> msg) -> Attribute msg$/;"	f
+onKeyUp	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^    onKeyUp : (Int -> msg) -> Attribute msg$/;"	f
+onMessage	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function onMessage(msg, model)$/;"	f	function:initialize
+onMessage	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function onMessage(msg, state)$/;"	f	function:makeManager
+onMouseDown	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseDown : msg -> Attribute msg$/;"	f
+onMouseEnter	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseEnter : msg -> Attribute msg$/;"	f
+onMouseLeave	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseLeave : msg -> Attribute msg$/;"	f
+onMouseOut	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseOut : msg -> Attribute msg$/;"	f
+onMouseOver	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseOver : msg -> Attribute msg$/;"	f
+onMouseUp	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onMouseUp : msg -> Attribute msg$/;"	f
+onSelfMsg	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^onSelfMsg : Platform.Router msg Never -> Never -> Seed -> Task Never Seed$/;"	f
+onSelfMsg	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^onSelfMsg : Platform.Router msg Never -> Never -> () -> Task Never ()$/;"	f
+onSelfMsg	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^onSelfMsg : Platform.Router msg Time -> Time -> State msg -> Task Never (State msg)$/;"	f
+onSubmit	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onSubmit : msg -> Attribute msg$/;"	f
+onSubmitOptions	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onSubmitOptions : Options$/;"	c
+onWithOptions	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^onWithOptions : String -> Options -> Json.Decoder msg -> Attribute msg$/;"	f
+onWithOptions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^onWithOptions : String -> Options -> Json.Decoder msg -> Property msg$/;"	f
+onWithOptions	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^onWithOptions : String -> Options -> Decode.Decoder msg -> Property msg$/;"	f
+oneOf	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^oneOf : List (Decoder a) -> Decoder a$/;"	f
+oneOf	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function oneOf(decoders)$/;"	f
+oneOf	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Char.elm	/^oneOf : List a -> a -> Bool$/;"	f
+openDebugWindow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function openDebugWindow(moduleName, popoutRef, virtualNode, eventNode)$/;"	f
+optgroup	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^optgroup : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+option	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^option : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+or	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^or : Int -> Int -> Int$/;"	f
+orange	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^orange : Color$/;"	c
+organizeFacts	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function organizeFacts(factList)$/;"	f
+outgoingPort	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function outgoingPort(name, converter)$/;"	f
+outgoingPortMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^var outgoingPortMap = F2(function cmdMap(tagger, value) {$/;"	v
+output	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^output : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+overflow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^    overflow: auto;$/;"	c
+overflow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^    overflow: hidden;$/;"	c
+overflow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  overflow: auto;$/;"	c
+overflow	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  overflow: hidden;$/;"	c
+overlayConfig	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^overlayConfig : Overlay.Config (Msg msg)$/;"	c
+pad	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function pad(n, chr, str)$/;"	f	function:_elm_lang$core$Native_String
+pad	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^pad : Int -> Char -> String -> String$/;"	f
+padLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function padLeft(n, chr, str)$/;"	f	function:_elm_lang$core$Native_String
+padLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^padLeft : Int -> Char -> String -> String$/;"	f
+padRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function padRight(n, chr, str)$/;"	f	function:_elm_lang$core$Native_String
+padRight	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^padRight : Int -> Char -> String -> String$/;"	f
+padding	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  padding: 4px 0;$/;"	c
+padding	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  padding: 6px;$/;"	c
+padding	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  padding: 8px 20px;$/;"	c
+pair	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    pair : Generator a -> Generator b -> Generator (a,b)$/;"	f
+pair	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^pair : Generator a -> Generator b -> Generator (a,b)$/;"	f
+pairs	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^    pairs : List a -> List b -> List (a,b)$/;"	f
+pairwiseRefEqual	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function pairwiseRefEqual(as, bs)$/;"	f
+param	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^param : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+parent	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			var subEventRoot = { tagger: tagger, parent: eventNode };$/;"	p	class:render.subEventRoot
+parent	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var appEventNode = { tagger: tagger, parent: undefined };$/;"	p	class:return
+parent	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var eventNode = { tagger: tagger, parent: undefined };$/;"	p	class:debugRenderer.eventNode
+parent	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var eventNode = { tagger: tagger, parent: undefined };$/;"	p	class:return
+parentise	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function parentise(tree, h)$/;"	f
+parseInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    parseInt : String -> Maybe Int$/;"	f
+parseInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    parseInt : String -> Result ParseError Int$/;"	f
+partition	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^partition : (comparable -> v -> Bool) -> Dict comparable v -> (Dict comparable v, Dict comparable v)$/;"	f
+partition	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^partition : (a -> Bool) -> List a -> (List a, List a)$/;"	f
+partition	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^partition : (comparable -> Bool) -> Set comparable -> (Set comparable, Set comparable)$/;"	f
+patch	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			var patch = b.impl.diff(a,b);$/;"	v
+patches	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			patches: subPatches,$/;"	p	class:entry.data.data
+pattern	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^pattern : String -> Attribute msg$/;"	f
+patternUnderscore	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^patternUnderscore : number$/;"	c
+perform	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^perform : (a -> msg) -> Task Never a -> Cmd msg$/;"	f
+person	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    person : Decoder Person$/;"	c
+pi	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^pi : Float$/;"	c
+ping	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^ping : String -> Attribute msg$/;"	f
+placeholder	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^placeholder : String -> Attribute msg$/;"	f
+playButton	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^playButton : Maybe Int -> Node (Msg msg)$/;"	f
+point	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    point : Decoder Point$/;"	c
+position	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  position: absolute;$/;"	c
+position	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  position: fixed;$/;"	c
+postInitOnEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function postInitOnEffects(router, subList, state)$/;"	f	function:setupIncomingPort
+postInitSend	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function postInitSend(value)$/;"	f	function:setupIncomingPort
+poster	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^poster : String -> Attribute msg$/;"	f
+pre	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^pre : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+preInitOnEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function preInitOnEffects(router, subList, state)$/;"	f	function:setupIncomingPort
+preInitSend	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function preInitSend(value)$/;"	f	function:setupIncomingPort
+pred	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm	/^pred : Int -> Bool$/;"	f
+preload	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^preload : String -> Attribute msg$/;"	f
+primitive	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function primitive(str)$/;"	f	function:_elm_lang$virtual_dom$Native_Debug
+probability	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    probability : Generator Float$/;"	c
+problemTable	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^problemTable : List (Problem, String)$/;"	c
+problemToString	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^problemToString : Metadata.Problem -> String$/;"	f
+product	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^product : List number -> number$/;"	f
+program	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function program(impl)$/;"	f	function:_elm_lang$core$Native_Platform
+program	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var program = makeProgram(checkNoFlags);$/;"	v
+programWithFlags	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function programWithFlags(impl)$/;"	f
+programWithFlags	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^var programWithFlags = makeProgram(checkYesFlags);$/;"	v
+progress	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^progress : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+property	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^property : String -> Json.Value -> Attribute msg$/;"	f
+property	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function property(key, value)$/;"	f
+property	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^property : String -> Json.Value -> Property msg$/;"	f
+property	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^property : String -> Decode.Value -> Property msg$/;"	f
+pubdate	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^pubdate : String -> Attribute msg$/;"	f
+purple	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^purple : Color$/;"	c
+purple	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^purple : VDom.Property msg$/;"	c
+push	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^push : a -> Array a -> Array a$/;"	f
+push	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function push(item, a)$/;"	f
+push_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function push_(item, a)$/;"	f
+qualifiedPatterns	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^        qualifiedPatterns : Test$/;"	c
+radial	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^radial : (Float,Float) -> Float -> (Float,Float) -> Float -> List (Float,Color) -> Gradient$/;"	f
+radians	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^radians : Float -> Float$/;"	f
+randomPoint	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    randomPoint : Generator (Int,Int)$/;"	c
+range	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^range : Int -> Int -> List Int$/;"	f
+range	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^range : State -> (Int,Int)$/;"	f
+rangeHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^rangeHelp : Int -> Int -> List Int -> List Int$/;"	f
+rawSend	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function rawSend(process, msg)$/;"	f
+rawSpawn	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function rawSpawn(task)$/;"	f
+readonly	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^readonly : Bool -> Attribute msg$/;"	f
+receive	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function receive(callback)$/;"	f
+red	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^red : Color$/;"	c
+red	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^red : VDom.Property msg$/;"	c
+redden	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^redden : Dict k v -> Dict k v$/;"	f
+regex	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function regex(raw)$/;"	f	function:_elm_lang$core$Native_Regex
+regex	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^regex : String -> Regex$/;"	f
+regionToString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function regionToString(region)$/;"	f
+rel	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^rel : String -> Attribute msg$/;"	f
+rem	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^rem : Int -> Int -> Int$/;"	f
+rem	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^rem : NColor -> Dict k v -> Dict k v -> Dict k v$/;"	f
+rem	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function rem(a, b)$/;"	f	function:_elm_lang$core$Native_Basics
+remove	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^remove : comparable -> Dict comparable v -> Dict comparable v$/;"	f
+remove	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^remove : comparable -> Set comparable -> Set comparable$/;"	f
+removeMax	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^removeMax : NColor -> k -> v -> Dict k v -> Dict k v -> Dict k v$/;"	f
+removeNode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function removeNode(changes, localPatches, key, vnode, index)$/;"	f
+removeTag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm	/^removeTag : String -> a -> Report.TagChanges -> Report.TagChanges$/;"	f
+render	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function render(vNode, eventNode)$/;"	f
+render	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^render : Node -> OpaqueDom$/;"	f
+renderDom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^renderDom : Node -> (OpaqueDom, Node)$/;"	f
+renderInput	src/Main.elm	/^renderInput : Html Msg$/;"	c
+renderList	src/Main.elm	/^renderList : List Todo -> List (Html msg)$/;"	f
+renderPrimitive	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm	/^renderPrimitive : Int -> Node$/;"	f
+renderRecord	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm	/^renderRecord : { x: String, y: String } -> Node$/;"	f
+renderer	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function renderer(enqueue, _)$/;"	f
+repeat	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^repeat : Int -> a -> Array a$/;"	f
+repeat	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^repeat : Int -> a -> List a$/;"	f
+repeat	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function repeat(n, str)$/;"	f	function:_elm_lang$core$Native_String
+repeat	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^repeat : Int -> String -> String$/;"	f
+repeatHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^repeatHelp : List a -> Int -> a -> List a$/;"	f
+replace	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function replace(n, re, replacer, string)$/;"	f	function:_elm_lang$core$Native_Regex
+replace	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^replace : HowMany -> Regex -> (Match -> String) -> String -> String$/;"	f
+reportRemBug	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^reportRemBug : String -> NColor -> String -> String -> a$/;"	f
+required	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^required : Bool -> Attribute msg$/;"	f
+result	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var result = A2(_elm_lang$core$Native_Json.run, flagDecoder, flags);$/;"	v
+resultParseInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    resultParseInt : String -> Result String Int$/;"	f
+return	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	return function(flagDecoder)$/;"	f	function:_elm_lang$core$Native_Platform
+return	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	return function(flagDecoder)$/;"	f
+reverse	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^reverse : List a -> List a$/;"	f
+reverse	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function reverse(str)$/;"	f	function:_elm_lang$core$Native_String
+reverse	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^reverse : String -> String$/;"	f
+reversed	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^reversed : Bool -> Attribute msg$/;"	f
+rgb	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^rgb : Int -> Int -> Int -> Color$/;"	f
+rgb	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    rgb : Generator Color.Color$/;"	c
+rgbToHsl	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^rgbToHsl : Int -> Int -> Int -> (Float,Float,Float)$/;"	f
+rgba	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^rgba : Int -> Int -> Int -> Float -> Color$/;"	f
+right	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function right(n, str)$/;"	f	function:_elm_lang$core$Native_String
+right	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^right : Int -> String -> String$/;"	f
+right	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  right: 6px;$/;"	c
+round	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^round : Float -> Int$/;"	f
+rows	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^rows : Int -> Attribute msg$/;"	f
+rowspan	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^rowspan : Int -> Attribute msg$/;"	f
+rp	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^rp : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+rt	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^rt : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+ruby	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^ruby : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+run	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function run(decoder, value)$/;"	f
+runHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function runHelp(decoder, value)$/;"	f
+runIf	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^runIf : Bool -> Task Never () -> Cmd (Msg msg)$/;"	f
+runOnString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function runOnString(decoder, string)$/;"	f
+runner	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestMain.elm	/^port runner : Signal (Task x ())$/;"	p
+samp	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^samp : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+sandbox	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^sandbox : String -> Attribute msg$/;"	f
+saveSlot	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function saveSlot(a, b, index, slot)$/;"	f
+scanl	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^scanl : (a -> b -> b) -> b -> List a -> List b$/;"	f
+scope	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^        scope : Test$/;"	c
+scope	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^scope : String -> Attribute msg$/;"	f
+scoped	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^scoped : Bool -> Attribute msg$/;"	f
+scrollTask	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function scrollTask(popoutRef)$/;"	f
+seamless	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^seamless : Bool -> Attribute msg$/;"	f
+second	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^second : Date -> Int$/;"	f
+second	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^second : Time$/;"	c
+second	elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm	/^second : (a1, a2) -> a2$/;"	f
+section	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^section : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+select	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^select : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+selected	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^selected : Bool -> Attribute msg$/;"	f
+self	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		self: undefined$/;"	p	class:makeManager.router
+send	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function send(incomingValue)$/;"	f	function:setupIncomingPort
+send	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function send(process, msg)$/;"	f
+send	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^    send : Id exit msg -> msg -> Task x ()$/;"	f
+sendToApp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function sendToApp(router, msg)$/;"	f
+sendToApp	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^sendToApp : Router msg a -> msg -> Task x ()$/;"	f
+sendToSelf	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function sendToSelf(router, msg)$/;"	f
+sendToSelf	elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm	/^sendToSelf : Router a msg -> msg -> Task x ()$/;"	f
+seqTypeToString	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^seqTypeToString : Int -> SeqType -> String$/;"	f
+sequence	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^sequence : List (Task x a) -> Task x (List a)$/;"	f
+set	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^set : Int -> a -> Array a -> Array a$/;"	f
+set	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function set(i, item, array)$/;"	f	function:_elm_lang$core$Native_Array
+set	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm	/^set : Set Int$/;"	c
+set2	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function set2(a, b, index, value)$/;"	f
+setInterval	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^setInterval : Time -> Task Never () -> Task x Never$/;"	f
+setInterval_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Time.js	/^function setInterval_(interval, task)$/;"	f	function:_elm_lang$core$Native_Time
+setPart1	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm	/^setPart1 : Set Int$/;"	c
+setPart2	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm	/^setPart2 : Set Int$/;"	c
+setupEffects	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function setupEffects(managers, callback)$/;"	f
+setupIncomingPort	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function setupIncomingPort(name, callback)$/;"	f
+setupOutgoingPort	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function setupOutgoingPort(name)$/;"	f
+shape	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^shape : String -> Attribute msg$/;"	f
+shiftLeftBy	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^shiftLeftBy : Int -> Int -> Int$/;"	f
+shiftRightBy	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^shiftRightBy : Int -> Int -> Int$/;"	f
+shiftRightZfBy	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^shiftRightZfBy : Int -> Int -> Int$/;"	f
+shuffle	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function shuffle(a, b, toRemove)$/;"	f
+siblise	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function siblise(a, b)$/;"	f
+sin	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^sin : Float -> Float$/;"	f
+singleton	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^singleton : comparable -> v -> Dict comparable v$/;"	f
+singleton	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^singleton : a -> List a$/;"	f
+singleton	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^singleton : comparable -> Set comparable$/;"	f
+size	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^size : Dict k v -> Int$/;"	f
+size	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^size : Set a -> Int$/;"	f
+size	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^size : Int -> Attribute msg$/;"	f
+size	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^size : History model msg -> Int$/;"	f
+sizeHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^sizeHelp : Int -> Dict k v -> Int$/;"	f
+sleep	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function sleep(time)$/;"	f
+sleep	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^sleep : Time -> Task x ()$/;"	f
+slice	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^slice : Int -> Int -> Array a -> Array a$/;"	f
+slice	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function slice(from, to, a)$/;"	f
+slice	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function slice(start, end, str)$/;"	f	function:_elm_lang$core$Native_String
+slice	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^slice : Int -> Int -> String -> String$/;"	f
+sliceLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function sliceLeft(from, a)$/;"	f
+sliceRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function sliceRight(to, a)$/;"	f
+small	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^small : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+some	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^some : List a -> Bool$/;"	f
+sort	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^sort : List comparable -> List comparable$/;"	f
+sortBy	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^sortBy : (a -> comparable) ->  List a -> List a$/;"	f
+sortBy	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function sortBy(f, xs)$/;"	f
+sortWith	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^sortWith : (a -> a -> Order) ->  List a -> List a$/;"	f
+sortWith	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function sortWith(f, xs)$/;"	f
+source	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^source : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+span	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^span : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+span	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^span : Int -> Attribute msg$/;"	f
+span	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^span : List (Property msg) -> List (Node msg) -> Node msg$/;"	f
+spawn	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function spawn(task)$/;"	f
+spawn	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^    spawn : Task exit a -> Task x (Id exit Never)$/;"	f
+spawn	elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm	/^spawn : Task x a -> Task y Id$/;"	f
+spawnCmd	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^spawnCmd : Platform.Router msg Never -> MyCmd msg -> Task x ()$/;"	f
+spawnHelp	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^spawnHelp : Platform.Router msg Time -> List Time -> Processes -> Task.Task x Processes$/;"	f
+spawnLoop	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function spawnLoop(init, onMessage)$/;"	f
+spellcheck	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^spellcheck : Bool -> Attribute msg$/;"	f
+split	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js	/^function split(n, re, str)$/;"	f	function:_elm_lang$core$Native_Regex
+split	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function split(sep, str)$/;"	f	function:_elm_lang$core$Native_String
+split	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^split : State -> (State, State)$/;"	f
+split	elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm	/^split : HowMany -> Regex -> String -> List String$/;"	f
+split	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^split : String -> String -> List String$/;"	f
+sqrt	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^sqrt : Float -> Float$/;"	f
+src	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^src : String -> Attribute msg$/;"	f
+srcdoc	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^srcdoc : String -> Attribute msg$/;"	f
+srclang	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^srclang : String -> Attribute msg$/;"	f
+start	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^start : Int -> Attribute msg$/;"	f
+startsWith	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function startsWith(sub, str)$/;"	f	function:_elm_lang$core$Native_String
+startsWith	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^startsWith : String -> String -> Bool$/;"	f
+staticProgram	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function staticProgram(vNode)$/;"	f
+step	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^	var step = Math.pow(M, h);$/;"	v
+step	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function step(numSteps, process)$/;"	f
+step	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^step : Generator a -> Seed -> (a, Seed)$/;"	f
+step	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^step : String -> Attribute msg$/;"	f
+string	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^string : Decoder String$/;"	c
+string	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm	/^string : String -> Value$/;"	f
+stringLength	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^    stringLength : Decoder Int$/;"	c
+stringProperty	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^stringProperty : String -> String -> Attribute msg$/;"	f
+strong	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^strong : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+style	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^style : List (String, String) -> Attribute msg$/;"	f
+style	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function style(value)$/;"	f
+style	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^style : List (String, String) -> Property msg$/;"	f
+style	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^style : List (String, String) -> Property msg$/;"	f
+styles	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^styles : Node msg$/;"	c
+styles	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^styles : Node msg$/;"	c
+sub	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^sub : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+subMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		subMap: incomingPortMap,$/;"	p	class:effectManagers
+subMap	elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm	/^subMap : (a -> b) -> MySub a -> MySub b$/;"	f
+subscribe	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function subscribe(callback)$/;"	f	function:setupOutgoingPort
+subscriptions	src/Main.elm	/^subscriptions : Model -> Sub Msg$/;"	f
+succeed	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^succeed : a -> Decoder a$/;"	f
+succeed	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^function succeed(msg)$/;"	f	function:_elm_lang$core$Native_Json
+succeed	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function succeed(value)$/;"	f	function:_elm_lang$core$Native_Scheduler
+succeed	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^succeed : a -> Task x a$/;"	f
+sum	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^sum : List number -> number$/;"	f
+summary	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^summary : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+sup	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^sup : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+tabindex	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^tabindex : Int -> Attribute msg$/;"	f
+table	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				table: a.table.slice()$/;"	p	class:var.newA
+table	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^				table: table$/;"	p	class:var.leaf
+table	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^			table: table.splice(0, i)$/;"	p	class:var.leaf
+table	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^		table: new Array(length)$/;"	p	class:createNode.a
+table	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^	table: []$/;"	p	class:_elm_lang$core$Native_Array.empty
+table	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^table : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+tag	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		tag: 'cmd',$/;"	p	class:effectManagers
+tag	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^		tag: 'sub',$/;"	p	class:effectManagers
+tag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			tag: 'insert',$/;"	p	class:entry
+tag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			tag: 'remove',$/;"	p	class:changes
+tagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^				domNode.elm_event_node_ref = { tagger: patch.data, parent: patch.eventNode };$/;"	p	class:domNode.elm_event_node_ref
+tagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			var subEventRoot = { tagger: tagger, parent: eventNode };$/;"	p	class:render.subEventRoot
+tagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var appEventNode = { tagger: tagger, parent: undefined };$/;"	p	class:return
+tagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var eventNode = { tagger: tagger, parent: undefined };$/;"	p	class:debugRenderer.eventNode
+tagger	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^		var eventNode = { tagger: tagger, parent: undefined };$/;"	p	class:return
+tail	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^tail : List a -> Maybe (List a)$/;"	f
+take	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^take : Int -> List a -> List a$/;"	f
+takeFast	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^takeFast : Int -> Int -> List a -> List a$/;"	f
+takeReverse	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^takeReverse : Int -> List a -> List a -> List a$/;"	f
+takeTailRec	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^takeTailRec : Int -> List a -> List a$/;"	f
+tan	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^tan : Float -> Float$/;"	f
+target	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^target : String -> Attribute msg$/;"	f
+targetChecked	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^targetChecked : Json.Decoder Bool$/;"	c
+targetValue	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm	/^targetValue : Json.Decoder String$/;"	c
+tbody	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^tbody : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+td	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^td : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+temp	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js	/^			var temp = decoder.decoders;$/;"	v
+testListOfN	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/List.elm	/^testListOfN : Int -> Test$/;"	f
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Main.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Basics.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Bitwise.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Char.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Dict.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Equality.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Json.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/List.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Maybe.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Regex.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Result.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm	/^tests : Test$/;"	c
+tests	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestMain.elm	/^tests : Test$/;"	c
+text	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^text : String -> Html msg$/;"	f
+text	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function text(string)$/;"	f	function:_elm_lang$virtual_dom$Native_VirtualDom
+text	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm	/^text : String -> Node msg$/;"	f
+text	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm	/^text : String -> Node msg$/;"	f
+textarea	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^textarea : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+tfoot	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^tfoot : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+th	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^th : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+thead	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^thead : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+thunk	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function thunk(func, args, thunk)$/;"	f
+time	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^time : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+title	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^title : String -> Attribute msg$/;"	f
+toArray	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js	/^function toArray(xs)$/;"	f
+toCode	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^toCode : Char -> KeyCode$/;"	f
+toEffect	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^function toEffect(isCmd, home, taggers, value)$/;"	f
+toFloat	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^toFloat : Int -> Float$/;"	f
+toFloat	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function toFloat(s)$/;"	f	function:_elm_lang$core$Native_String
+toFloat	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^toFloat : String -> Result String Float$/;"	f
+toHsl	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^toHsl : Color -> { hue:Float, saturation:Float, lightness:Float, alpha:Float }$/;"	f
+toIndexedList	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^toIndexedList : Array a -> List (Int, a)$/;"	f
+toInt	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function toInt(s)$/;"	f	function:_elm_lang$core$Native_String
+toInt	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^toInt : String -> Result String Int$/;"	f
+toJSArray	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function toJSArray(a)$/;"	f
+toJSArray_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function toJSArray_(jsArray, i, a)$/;"	f
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm	/^toList : Array a -> List a$/;"	f
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^toList : Dict comparable v -> List (comparable,v)$/;"	f
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function toList(a)$/;"	f
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function toList(str)$/;"	f	function:_elm_lang$core$Native_String
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^toList : Set comparable -> List comparable$/;"	f
+toList	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^toList : String -> List Char$/;"	f
+toList_	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function toList_(list, a)$/;"	f
+toLocaleLower	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^toLocaleLower : Char -> Char$/;"	f
+toLocaleUpper	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^toLocaleUpper : Char -> Char$/;"	f
+toLower	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^toLower : Char -> Char$/;"	f
+toLower	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function toLower(str)$/;"	f	function:_elm_lang$core$Native_String
+toLower	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^toLower : String -> String$/;"	f
+toMaybe	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^toMaybe : Result x a -> Maybe a$/;"	f
+toMonth	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    toMonth : String -> Result String Int$/;"	f
+toPolar	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^toPolar : (Float,Float) -> (Float,Float)$/;"	f
+toPolar	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function toPolar(point)$/;"	f
+toRgb	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^toRgb : Color -> { red:Int, green:Int, blue:Int, alpha:Float }$/;"	f
+toString	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^toString : a -> String$/;"	f
+toString	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function toString(v)$/;"	f
+toTime	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^toTime : Date -> Time$/;"	f
+toUpper	elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm	/^toUpper : Char -> Char$/;"	f
+toUpper	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function toUpper(str)$/;"	f	function:_elm_lang$core$Native_String
+toUpper	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^toUpper : String -> String$/;"	f
+toValidMonth	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^    toValidMonth : Int -> Maybe Int$/;"	f
+toValidMonth	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^    toValidMonth : Int -> Result String Int$/;"	f
+top	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  top: 0;$/;"	c
+tr	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^tr : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+track	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^track : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+traverse	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function traverse(verbEventListener, ignorer, blocking)$/;"	f
+traverseHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function traverseHelp(verbEventListener, handler, eventNames)$/;"	f
+trim	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function trim(str)$/;"	f	function:_elm_lang$core$Native_String
+trim	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^trim : String -> String$/;"	f
+trimLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function trimLeft(str)$/;"	f	function:_elm_lang$core$Native_String
+trimLeft	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^trimLeft : String -> String$/;"	f
+trimRight	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function trimRight(str)$/;"	f	function:_elm_lang$core$Native_String
+trimRight	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^trimRight : String -> String$/;"	f
+truncate	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^truncate : Float -> Int$/;"	f
+truncate	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function truncate(n)$/;"	f
+turns	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^turns : Float -> Float$/;"	f
+turns	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function turns(t)$/;"	f
+type_	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^type_ : String -> Attribute msg$/;"	f
+ul	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^ul : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+ul	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Keyed.elm	/^ul : List (Attribute msg) -> List ( String, Html msg ) -> Html msg$/;"	f
+uncons	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function uncons(str)$/;"	f	function:_elm_lang$core$Native_String
+uncons	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^uncons : String -> Maybe (Char, String)$/;"	f
+uncurry	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^uncurry : (a -> b -> c) -> (a,b) -> c$/;"	f
+underscores	elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm	/^        underscores : Test$/;"	c
+undone	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^undone : GetResult model msg -> ( model, msg )$/;"	f
+union	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^union : Dict comparable v -> Dict comparable v -> Dict comparable v$/;"	f
+union	elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm	/^union : Set comparable -> Set comparable -> Set comparable$/;"	f
+unsafeCoerce	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js	/^function unsafeCoerce(value)$/;"	f	function:_elm_lang$virtual_dom$Native_Debug
+unsafeGet	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function unsafeGet(i, array)$/;"	f	function:_elm_lang$core$Native_Array
+unsafeQueryCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^		unsafeQueryCallCount: unsafeQueryCallCount,$/;"	p	class:Elm.Native.TestHelpers.values
+unsafeQueryCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^	function unsafeQueryCallCount(f) {$/;"	f	function:Elm.Native.TestHelpers.make
+unsafeQueryCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^unsafeQueryCallCount : (a -> b) -> Int$/;"	f
+unsafeRecordCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^		unsafeRecordCallCount: unsafeRecordCallCount,$/;"	p	class:Elm.Native.TestHelpers.values
+unsafeRecordCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^	function unsafeRecordCallCount(f) {$/;"	f	function:Elm.Native.TestHelpers.make
+unsafeRecordCallCount	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^unsafeRecordCallCount : (a -> b) -> (a -> b)$/;"	f
+unsafeSet	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js	/^function unsafeSet(i, item, array)$/;"	f	function:_elm_lang$core$Native_Array
+unsubscribe	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^	function unsubscribe(callback)$/;"	f	function:setupOutgoingPort
+unzip	elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm	/^unzip : List (a,b) -> (List a, List b)$/;"	f
+update	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^update : comparable -> (Maybe v -> Maybe v) -> Dict comparable v -> Dict comparable v$/;"	f
+update	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js	/^function update(oldRecord, updatedFields)$/;"	f
+update	elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm	/^    update : Msg -> Model -> ( Model, Cmd Msg )$/;"	f
+update	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^update : Msg -> Expando -> Expando$/;"	f
+update	src/Main.elm	/^update : Msg -> Model -> ( Model, Cmd Msg )$/;"	f
+updateAndReplace	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^		updateAndReplace: F3(VirtualDom.updateAndReplace)$/;"	p	class:Elm.Native.TestHelpers.values
+updateAndReplace	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^updateAndReplace : OpaqueDom -> Node -> Node -> OpaqueDom$/;"	f
+updateDom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^updateDom : (OpaqueDom, Node) -> Node -> (OpaqueDom, Node)$/;"	f
+updateField	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^updateField : Msg -> Maybe Expando -> Maybe Expando$/;"	f
+updateIfNeeded	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^	function updateIfNeeded()$/;"	f	function:makeStepper
+updateIndex	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^updateIndex : Int -> (a -> a) -> List a -> List a$/;"	f
+upload	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^upload : Cmd (Msg msg)$/;"	c
+uploadDecoder	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^uploadDecoder : Decode.Decoder (Metadata, Encode.Value)$/;"	c
+upperOrLower	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    upperOrLower : Bool -> Generator Char$/;"	f
+uppercaseLetter	elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm	/^    uppercaseLetter : Generator Char$/;"	c
+usemap	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^usemap : String -> Attribute msg$/;"	f
+value	elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm	/^value : Decoder Value$/;"	c
+value	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^value : String -> Attribute msg$/;"	f
+values	elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm	/^values : Dict comparable v -> List v$/;"	f
+var	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^var : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+video	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^video : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+view	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^    view : model -> Html Msg$/;"	f
+view	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^view : Maybe String -> Expando -> Node Msg$/;"	f
+view	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^view : Maybe Int -> History model msg -> Node Int$/;"	f
+view	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^view : Config msg -> Bool -> Bool -> Int -> State -> ( Block, Node msg )$/;"	f
+view	src/Main.elm	/^view : Model -> Html Msg$/;"	f
+viewBadMetadata	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewBadMetadata : Metadata.Error -> List (Node msg)$/;"	f
+viewButton	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^    viewButton : String -> Html ()$/;"	f
+viewButtons	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewButtons : Buttons -> Node Msg$/;"	f
+viewChange	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewChange : Report.Change -> Node msg$/;"	f
+viewCode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewCode : String -> Node msg$/;"	f
+viewConstructor	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewConstructor : Maybe String -> Maybe String -> Bool -> List Expando -> Node Msg$/;"	f
+viewConstructorEntry	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewConstructorEntry : Int -> Expando -> Node Msg$/;"	f
+viewConstructorOpen	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewConstructorOpen : List Expando -> Node Msg$/;"	f
+viewDictionary	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewDictionary : Maybe String -> Bool -> List (Expando, Expando) -> Node Msg$/;"	f
+viewDictionaryEntry	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewDictionaryEntry : Int -> (Expando, Expando) -> Node Msg$/;"	f
+viewDictionaryOpen	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewDictionaryOpen : List (Expando, Expando) -> Node Msg$/;"	f
+viewExtraTiny	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewExtraTiny : Expando -> ( Int, List (Node msg) )$/;"	f
+viewExtraTinyRecord	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewExtraTinyRecord : Int -> String -> List String -> ( Int, List (Node msg) )$/;"	f
+viewHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewHelp : Config msg -> Bool -> Bool -> Int -> State -> ( Block, List (Node msg) )$/;"	f
+viewImportExport	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewImportExport : List (Property msg) -> msg -> msg -> Node msg$/;"	f
+viewIn	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^viewIn : Model model msg -> ( Overlay.Block, Node (Msg msg) )$/;"	f
+viewMention	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewMention : List String -> String -> Node msg$/;"	f
+viewMessage	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^viewMessage : Int -> Int -> msg -> Node Int$/;"	f
+viewMessage	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewMessage : Config msg -> String -> List (Node msg) -> Buttons -> ( Block, List (Node msg) )$/;"	f
+viewMiniControls	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewMiniControls : Config msg -> Int -> Node msg$/;"	f
+viewNotice	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^    viewNotice : Notice -> Html msg$/;"	f
+viewOut	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^viewOut : Model model msg -> Node (Msg msg)$/;"	f
+viewProblemType	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewProblemType : Metadata.ProblemType -> Node msg$/;"	f
+viewRecord	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewRecord : Maybe String -> Bool -> Dict String Expando -> Node Msg$/;"	f
+viewRecordEntry	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewRecordEntry : (String, Expando) -> Node Msg$/;"	f
+viewRecordOpen	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewRecordOpen : Dict String Expando -> Node Msg$/;"	f
+viewReport	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^viewReport : Bool -> Report -> List (Node msg)$/;"	f
+viewSequence	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewSequence : Maybe String -> SeqType -> Bool -> List Expando -> Node Msg$/;"	f
+viewSequenceOpen	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewSequenceOpen : List Expando -> Node Msg$/;"	f
+viewSidebar	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^viewSidebar : State model -> History model msg -> Node (Msg msg)$/;"	f
+viewSnapshot	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^viewSnapshot : Int -> Int -> Snapshot model msg -> Node Int$/;"	f
+viewSnapshots	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm	/^viewSnapshots : Int -> Array (Snapshot model msg) -> Node Int$/;"	f
+viewTiny	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewTiny : Expando -> ( Int, List (Node msg) )$/;"	f
+viewTinyHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewTinyHelp : String -> ( Int, List (Node msg) )$/;"	f
+viewTinyRecord	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewTinyRecord : Dict String Expando -> ( Int, List (Node msg) )$/;"	f
+viewTinyRecordHelp	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm	/^viewTinyRecordHelp : Int -> String -> List (String, Expando) -> ( Int, List (Node msg) )$/;"	f
+vnode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			vnode: vnode,$/;"	p	class:changes
+vnode	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^			vnode: vnode,$/;"	p	class:entry
+wbr	elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm	/^wbr : List (Attribute msg) -> List (Html msg) -> Html msg$/;"	f
+white	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^white : Color$/;"	c
+width	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^width : Int -> Attribute msg$/;"	f
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  width: 100%$/;"	c
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  width: 100%;$/;"	c
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  width: 30ch;$/;"	c
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^  width: 5ch;$/;"	c
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  width: 100%;$/;"	c
+width	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm	/^  width: 600px;$/;"	c
+withDefault	elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm	/^withDefault : a -> Maybe a -> a$/;"	f
+withDefault	elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm	/^withDefault : a -> Result x a -> a$/;"	f
+words	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js	/^function words(str)$/;"	f	function:_elm_lang$core$Native_String
+words	elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm	/^words : String -> List String$/;"	f
+work	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^function work()$/;"	f
+workQueue	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^var workQueue = [];$/;"	v
+worker	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^			object['worker'] = function worker(flags)$/;"	f	function:_elm_lang$core$Native_Platform
+worker	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js	/^			object['worker'] = function worker(flags)$/;"	f
+working	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js	/^var working = false;$/;"	v
+worstCase	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm	/^worstCase : Status -> List Status -> Status$/;"	f
+wrap	elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm	/^wrap : String -> Attribute msg$/;"	f
+wrapInit	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^wrapInit : Encode.Value -> ( model, Cmd msg ) -> ( Model model msg, Cmd (Msg msg) )$/;"	f
+wrapSubs	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^wrapSubs : (model -> Sub msg) -> Model model msg -> Sub (Msg msg)$/;"	f
+wrapView	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm	/^wrapView : (model -> Node msg) -> Model model msg -> Node (Msg msg)$/;"	f
+wrapViewIn	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function wrapViewIn(appEventNode, overlayNode, viewIn)$/;"	f
+wrapper	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js	/^		function wrapper(a) {$/;"	f	function:Elm.Native.TestHelpers.make.unsafeRecordCallCount
+xor	elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm	/^xor : Bool -> Bool -> Bool$/;"	f
+xor	elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm	/^xor : Int -> Int -> Int$/;"	f
+xor	elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js	/^function xor(a, b)$/;"	f
+year	elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm	/^year : Date -> Int$/;"	f
+yellow	elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm	/^yellow : Color$/;"	c
