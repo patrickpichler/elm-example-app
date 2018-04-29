@@ -1,6 +1,7 @@
 module Hello exposing (..)
 
 import Html exposing (..)
+import Html.Attributes exposing (..)
 import Html.Events exposing (onInput, onClick)
 import List
 import String
@@ -52,7 +53,7 @@ type InputFieldUpdate
 view : Model -> Html Msg
 view model =
     div []
-        ((renderList model.todos) ++ [ renderInput ])
+        ((renderList model.todos) ++ [ renderInput model ])
 
 
 renderList : List Todo -> List (Html msg)
@@ -60,11 +61,11 @@ renderList todos =
     List.map (\h -> text h.text) todos
 
 
-renderInput : Html Msg
-renderInput =
+renderInput : Model -> Html Msg
+renderInput model =
     div []
         [ input [ onInput (FieldUpdate << ChangeText) ] []
-        , button [ onClick (AddTodo) ] [ text "Add" ]
+        , button [ onClick (AddTodo), disabled (String.isEmpty model.inputFieldState.text) ] [ text "Add" ]
         ]
 
 

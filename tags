@@ -1084,7 +1084,7 @@ removeTag	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.
 render	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js	/^function render(vNode, eventNode)$/;"	f
 render	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^render : Node -> OpaqueDom$/;"	f
 renderDom	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm	/^renderDom : Node -> (OpaqueDom, Node)$/;"	f
-renderInput	src/Main.elm	/^renderInput : Html Msg$/;"	c
+renderInput	src/Main.elm	/^renderInput : Model -> Html Msg$/;"	f
 renderList	src/Main.elm	/^renderList : List Todo -> List (Html msg)$/;"	f
 renderPrimitive	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm	/^renderPrimitive : Int -> Node$/;"	f
 renderRecord	elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm	/^renderRecord : { x: String, y: String } -> Node$/;"	f
