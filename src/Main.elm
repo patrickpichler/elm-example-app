@@ -2,9 +2,10 @@ module Hello exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing (onInput, onClick)
 import List
 import String
+import Json.Decode as Json
+import Html.Events exposing (..)
 
 
 type alias Model =
@@ -52,21 +53,48 @@ type InputFieldUpdate
 
 view : Model -> Html Msg
 view model =
-    div []
-        ((renderList model.todos) ++ [ renderInput model ])
+    case model of
+        { todos, inputFieldState } ->
+            div []
+                ((renderList model.todos) ++ [ renderInput inputFieldState ])
 
 
 renderList : List Todo -> List (Html msg)
 renderList todos =
-    List.map (\h -> text h.text) todos
+    List.map renderItem todos
 
 
-renderInput : Model -> Html Msg
+renderItem : Todo -> Html msg
+renderItem todo =
+    div [ class "todo-item" ] [ text todo.text ]
+
+
+renderInput : InputFieldModel -> Html Msg
 renderInput model =
     div []
-        [ input [ onInput (FieldUpdate << ChangeText) ] []
-        , button [ onClick (AddTodo), disabled (String.isEmpty model.inputFieldState.text) ] [ text "Add" ]
+        [ input
+            [ onInput (FieldUpdate << ChangeText)
+            , onEnter AddTodo
+            ]
+            []
+        , button
+            [ onClick AddTodo
+            , (not >> disabled) model.buttonActive
+            ]
+            [ text "Add" ]
         ]
+
+
+onEnter : Msg -> Attribute Msg
+onEnter msg =
+    let
+        isEnter code =
+            if code == 13 then
+                Json.succeed msg
+            else
+                Json.fail "not ENTER"
+    in
+        on "keydown" (Json.andThen isEnter keyCode)
 
 
 constructChangeText : String -> Msg
@@ -78,10 +106,19 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         FieldUpdate inputFieldUpdate ->
-            ( { model | inputFieldState = (handleFieldUpdate inputFieldUpdate model.inputFieldState) }, Cmd.none )
+            ( { model
+                | inputFieldState = (handleFieldUpdate inputFieldUpdate model.inputFieldState)
+              }
+            , Cmd.none
+            )
 
         AddTodo ->
-            ( { model | inputFieldState = clearInputText model.inputFieldState, todos = model.todos ++ [ (createTodo model.inputFieldState) ] }, Cmd.none )
+            ( { model
+                | inputFieldState = clearInputText model.inputFieldState
+                , todos = model.todos ++ [ (createTodo model.inputFieldState) ]
+              }
+            , Cmd.none
+            )
 
         NoOp ->
             ( model, Cmd.none )
@@ -94,14 +131,14 @@ createTodo model =
 
 clearInputText : InputFieldModel -> InputFieldModel
 clearInputText model =
-    { model | text = "" }
+    { model | text = "", buttonActive = False }
 
 
 handleFieldUpdate : InputFieldUpdate -> InputFieldModel -> InputFieldModel
 handleFieldUpdate msg model =
     case msg of
         ChangeText newText ->
-            { model | text = newText, buttonActive = String.isEmpty newText }
+            { text = newText, buttonActive = (not << String.isEmpty) newText }
 
 
 subscriptions : Model -> Sub Msg
